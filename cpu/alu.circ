@@ -463,6 +463,7 @@
     <comp lib="0" loc="(740,390)" name="Bit Extender">
       <a name="in_width" val="1"/>
       <a name="out_width" val="32"/>
+      <a name="type" val="zero"/>
     </comp>
     <comp lib="0" loc="(740,560)" name="Tunnel">
       <a name="label" val="srl5"/>
