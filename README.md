@@ -99,6 +99,6 @@ Use a multiplexor to decide which to output according to input [ALUSel]
 ---
 
 Task 2: RegFile
-> use a multiplexer --> output 1 to RegWEn if RegWEn==1 AND WriteReg is the current register
+> use a demultiplexer --> output 1 to RegWEn if RegWEn==1 AND WriteReg is the current register
 >>>> input to multiplexor: WriteReg multiplied by RegWriteData --> determine whether or not any write at all
 > used a multiplexer w/ the same overall format but different tunnels as the multiplexor for WriteReg to write output for ReadReg1, ReadReg2

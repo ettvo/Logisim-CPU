@@ -637,69 +637,73 @@
       <a name="label" val="t2"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(80,1870)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="rx0"/>
+    </comp>
     <comp lib="0" loc="(80,1900)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="readx1"/>
+      <a name="label" val="rx1"/>
     </comp>
     <comp lib="0" loc="(80,1930)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="readx2"/>
+      <a name="label" val="rx2"/>
     </comp>
     <comp lib="0" loc="(80,1960)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x3"/>
+      <a name="label" val="rx3"/>
     </comp>
     <comp lib="0" loc="(80,1990)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x4"/>
+      <a name="label" val="rx4"/>
     </comp>
     <comp lib="0" loc="(80,2020)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x5"/>
+      <a name="label" val="rx5"/>
     </comp>
     <comp lib="0" loc="(80,2050)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x6"/>
+      <a name="label" val="rx6"/>
     </comp>
     <comp lib="0" loc="(80,2080)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x7"/>
+      <a name="label" val="rx7"/>
     </comp>
     <comp lib="0" loc="(80,2110)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x8"/>
+      <a name="label" val="rx8"/>
     </comp>
     <comp lib="0" loc="(80,2140)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x9"/>
+      <a name="label" val="rx9"/>
     </comp>
     <comp lib="0" loc="(80,2170)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x10"/>
+      <a name="label" val="rx10"/>
     </comp>
     <comp lib="0" loc="(80,2200)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x11"/>
+      <a name="label" val="rx11"/>
     </comp>
     <comp lib="0" loc="(80,2230)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x12"/>
+      <a name="label" val="rx12"/>
     </comp>
     <comp lib="0" loc="(80,2260)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x13"/>
+      <a name="label" val="rx13"/>
     </comp>
     <comp lib="0" loc="(80,2290)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x14"/>
+      <a name="label" val="rx14"/>
     </comp>
     <comp lib="0" loc="(80,2320)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x15"/>
+      <a name="label" val="rx15"/>
     </comp>
     <comp lib="0" loc="(80,2350)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="x16"/>
+      <a name="label" val="rx16"/>
     </comp>
     <comp lib="0" loc="(810,220)" name="Pin">
       <a name="facing" val="south"/>
@@ -1032,6 +1036,14 @@
     <comp lib="5" loc="(1438,308)" name="Text">
       <a name="text" val="OUTPUTS from your circuit"/>
     </comp>
+    <comp lib="5" loc="(148,1107)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="0 otherwise"/>
+    </comp>
+    <comp lib="5" loc="(149,1089)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="writes 1 to selected register"/>
+    </comp>
     <comp lib="5" loc="(209,303)" name="Text">
       <a name="text" val="INPUTS to your circuit"/>
     </comp>
@@ -1050,6 +1062,14 @@
     <comp lib="5" loc="(422,294)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="WE is write-enable"/>
+    </comp>
+    <comp lib="5" loc="(633,1850)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="TODO: Complete ReadRegisters &amp; test Task 2"/>
+    </comp>
+    <comp lib="5" loc="(677,1875)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="finish changing these registers to rx# for the register output"/>
     </comp>
     <comp lib="5" loc="(784,1188)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -1084,6 +1104,7 @@
     <wire from="(1040,910)" to="(1040,920)"/>
     <wire from="(1040,910)" to="(1050,910)"/>
     <wire from="(1080,220)" to="(1080,240)"/>
+    <wire from="(110,1850)" to="(110,1870)"/>
     <wire from="(110,980)" to="(140,980)"/>
     <wire from="(1100,240)" to="(1150,240)"/>
     <wire from="(1110,480)" to="(1130,480)"/>
@@ -1386,6 +1407,7 @@
     <wire from="(780,330)" to="(790,330)"/>
     <wire from="(780,460)" to="(780,480)"/>
     <wire from="(780,460)" to="(790,460)"/>
+    <wire from="(80,1870)" to="(110,1870)"/>
     <wire from="(80,1900)" to="(120,1900)"/>
     <wire from="(80,1930)" to="(130,1930)"/>
     <wire from="(80,1960)" to="(140,1960)"/>
