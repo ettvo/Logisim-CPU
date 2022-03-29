@@ -1459,15 +1459,11 @@
     </comp>
     <comp lib="5" loc="(633,1850)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="TODO: Complete ReadRegisters &amp; test Task 2"/>
+      <a name="text" val="TODO: Complete Task 3"/>
     </comp>
     <comp lib="5" loc="(784,1188)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="since decoders only take inputs with bit width 1, need to split up groups"/>
-    </comp>
-    <comp lib="5" loc="(785,1868)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="connect rx# registers to correct element (muliplexor? demultiplexor? decoder? for ReadRegisters)"/>
     </comp>
     <comp lib="5" loc="(828,105)" name="Text">
       <a name="text" val="These are DEBUG/TEST outputs from your circuit."/>
