@@ -96,3 +96,4 @@ ALU Sel Value	|	Instruction							|	Implemented?	|	Tested?
 
 
 Use a multiplexor to decide which to output according to input [ALUSel]
+* 
