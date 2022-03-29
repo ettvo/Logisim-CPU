@@ -564,14 +564,6 @@
     <comp lib="5" loc="(713,35)" name="Text">
       <a name="text" val="DON'T CHANGE THE LOCATIONS OF THE INPUTS AND OUTPUTS!"/>
     </comp>
-    <comp lib="5" loc="(845,491)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="ALUsel: 2, b, "/>
-    </comp>
-    <comp lib="5" loc="(952,471)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="time: 04, 12, 13, 08, 09, 0a (need to sign extend?)"/>
-    </comp>
     <wire from="(1160,160)" to="(1160,220)"/>
     <wire from="(1160,160)" to="(1360,160)"/>
     <wire from="(1160,240)" to="(1180,240)"/>
