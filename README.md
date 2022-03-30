@@ -135,7 +135,7 @@ I-Type Format (immediate)
     opcode [6-0]
 ex: addi t0, t1, 3
 note: includes load instructions
---> immediate logical arithmetic opcode: 0010011
+--> immediate logical arithmetic opcode: 0010011 --> 00100 = 4
 --> load opcode: 0000011 --> 00000 = 0
     
 S-Type Format (store)
@@ -182,4 +182,9 @@ U-Format
 > will use multiplexor to determine value since different types of commands use different opcode and all use opcode --> determine what to use 
 > set everything to 0 that is not for current instruction format, leave things for current instruction format as-is, OR together at end?
 > can omit last 2 characters in opcode due to all opcode ending in 2 one's 
+
+
+TODO: 
+* use opcode values to determine how to use multiplexor to choose which format to use
+* use tunnels to create input for each format (focus on I-format [immediates] for addi)
 
