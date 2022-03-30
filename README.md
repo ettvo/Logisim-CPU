@@ -102,3 +102,50 @@ Task 2: RegFile
 > use a demultiplexer --> output 1 to RegWEn if RegWEn==1 AND WriteReg is the current register
 >>>> input to multiplexor: WriteReg multiplied by RegWriteData --> determine whether or not any write at all
 > used a multiplexer w/ the same overall format but different tunnels as the multiplexor for WriteReg to write output for ReadReg1, ReadReg2
+
+
+Task 3: Immediate Generator
+> used a bit splitter
+> got each 4 bit segment that were part of the immediate in the I-Type Format
+> bit extended each to 32 bits
+> rotated right each one a certain number of places according to their placement relative to each other
+> added them all together to get result
+
+Task 4: CPU
+> Need to break down input into components (opcode, instruction, register1, register2, destination_register, etc.) 
+
+<000> indicates difference from R-Type Format
+
+R-Type Format (regular)
+    funct7 [31-25]
+    rs2 [24-20]
+    rs1 [19-15]
+    funct3 [14-12]
+    rd [11-7] --> destination
+    opcode [6-0]
+ ex: add t0, t1, t2
+
+I-Type Format (immediate)
+    imm [31-20] --> need to sign extend to 32-bit before arithmetic operation <000>
+    rs1 [19-15]
+    funct3 [14-12]
+    rd [11-7] --> destination
+    opcode [6-0]
+ex: addi t0, t1, 3
+    
+S-Type Format (store)
+    imm(11:5) [31-25] <000>
+    rs2 [24-20] <000>
+    rs1 [19-15]
+    funct3 [14-12]
+    imm(4:0) [11-7] --> destination <000>
+    opcode [6-0]
+ex: sw x7, 12(x5)
+
+Branch-Type Format
+Jump-Type Format
+U-Format
+
+
+ 
+
