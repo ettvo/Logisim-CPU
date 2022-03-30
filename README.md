@@ -110,6 +110,7 @@ Task 3: Immediate Generator
 > bit extended each to 32 bits
 > rotated right each one a certain number of places according to their placement relative to each other
 > added them all together to get result
+> (can also just put two splitters and feed the input immediate into the second one to get the merged value)
 
 Task 4: CPU
 > Need to break down input into components (opcode, instruction, register1, register2, destination_register, etc.) 
@@ -117,13 +118,14 @@ Task 4: CPU
 <000> indicates difference from R-Type Format
 
 R-Type Format (regular)
-    funct7 [31-25]
+    funct7 [31-25] 
     rs2 [24-20]
     rs1 [19-15]
     funct3 [14-12]
     rd [11-7] --> destination
     opcode [6-0]
  ex: add t0, t1, t2
+ --> opcode: 0110011 --> 01100 = 12
 
 I-Type Format (immediate)
     imm [31-20] --> need to sign extend to 32-bit before arithmetic operation <000>
@@ -132,20 +134,52 @@ I-Type Format (immediate)
     rd [11-7] --> destination
     opcode [6-0]
 ex: addi t0, t1, 3
+note: includes load instructions
+--> immediate logical arithmetic opcode: 0010011
+--> load opcode: 0000011 --> 00000 = 0
     
 S-Type Format (store)
-    imm(11:5) [31-25] <000>
-    rs2 [24-20] <000>
+    imm(11:5) [31-25]
+    rs2 [24-20]
     rs1 [19-15]
     funct3 [14-12]
-    imm(4:0) [11-7] --> destination <000>
+    imm(4:0) [11-7]
     opcode [6-0]
 ex: sw x7, 12(x5)
+--> opcode: 0100011 --> 01000 = 8
 
-Branch-Type Format
-Jump-Type Format
+Branch-Type Format (store)
+    imm(12) [31]
+    imm(10:5) [30-25]
+    rs2 [24-20]
+    rs1 [19-15]
+    funct3 [14-12]
+    imm(4:1) [11-8]
+    imm(11) [7]
+    opcode [6-0]
+ex: sw x7, 12(x5)
+--> opcode: 1100011 --> 11000 = 24
+
+J-Format (jump)
+    imm(20) [31]
+    imm(10:1) [30-21]
+    imm(11) [20]
+    imm(19:12) [19-12]
+    rd [11-7]
+    opcode [6-0]
+ex: jal
+--> jal opcode: 1101111 --> 11011 = 27
+--> jalr opcode: 1100111 --> 11001 = 25
+
 U-Format
+    imm(31:12) [31:12]
+    rd [11-7]
+    opcode [6-0]
+--> lui opcode = 0110111 --> 01101 = 13
+--> auipc opcode = 0010111 --> 00101 = 5
 
-
- 
+> create an "if" using A --> B meaning (!A OR B = result)
+> will use multiplexor to determine value since different types of commands use different opcode and all use opcode --> determine what to use 
+> set everything to 0 that is not for current instruction format, leave things for current instruction format as-is, OR together at end?
+> can omit last 2 characters in opcode due to all opcode ending in 2 one's 
 
