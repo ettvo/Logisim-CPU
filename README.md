@@ -178,6 +178,10 @@ U-Format
 --> lui opcode = 0110111 --> 01101 = 13
 --> auipc opcode = 0010111 --> 00101 = 5
 
+R, S, Branch use register 2
+R, I, J, U use rd
+(still need to determine return register for S, branch)
+
 > create an "if" using A --> B meaning (!A OR B = result)
 > will use multiplexor to determine value since different types of commands use different opcode and all use opcode --> determine what to use 
 > set everything to 0 that is not for current instruction format, leave things for current instruction format as-is, OR together at end?
