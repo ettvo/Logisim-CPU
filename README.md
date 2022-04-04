@@ -117,6 +117,8 @@ Task 4: CPU
 
 <000> indicates difference from R-Type Format
 
+Since all opcode for this project ends in 11, truncate the 11 and use bits 6-2 instead of 6-0 for the calculations
+
 R-Type Format (regular)
     funct7 [31-25] 
     rs2 [24-20]
@@ -187,8 +189,22 @@ R, I, J, U use rd
 > set everything to 0 that is not for current instruction format, leave things for current instruction format as-is, OR together at end?
 > can omit last 2 characters in opcode due to all opcode ending in 2 one's 
 
+The only values for funct7 are 0 (0b000000), 5 (0b000101), and 32 (0b100000)
+--> can use only 2 bits for selecting values (due to limitations on multiplexor data bits)
+--> take first bit and last bit --> concatenate with bit splitter
+--> 0 == 0b00
+--> 1 == 0b01
+--> 32 == 0b10
+
+Work that should be in control logic is actually in cpu because I tried to work ahead and Logism doesn't let me control paste things
+
 
 TODO: 
 * use opcode values to determine how to use multiplexor to choose which format to use
 * use tunnels to create input for each format (focus on I-format [immediates] for addi)
+* fix load instructions for I-format in imm-gen specifics not implemented
+* fix shift immediate for I-format in imm-gen specifics not implemented
+* store instructions for S-format in imm-gen specifics not fully implemented
+* branch instructions for B-format in imm-gen specifics not fully implemented
+* jump instructions for B-format in imm-gen specifics not fully implemented
 
