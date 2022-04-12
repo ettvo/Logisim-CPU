@@ -204,7 +204,8 @@ TODO:
 * use tunnels to create input for each format (focus on I-format [immediates] for addi)
 * fix load instructions for I-format in imm-gen specifics not implemented
 * fix shift immediate for I-format in imm-gen specifics not implemented
+* complete signed / unsigned operations for R format in CPU
 * store instructions for S-format in imm-gen specifics not fully implemented
 * branch instructions for B-format in imm-gen specifics not fully implemented
 * jump instructions for B-format in imm-gen specifics not fully implemented
-
+* immediate format currently sign extends even for unsigned operations (FIX)
