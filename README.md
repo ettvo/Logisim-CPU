@@ -198,6 +198,13 @@ The only values for funct7 are 0 (0b000000), 5 (0b000101), and 32 (0b100000)
 
 Work that should be in control logic is actually in cpu because I tried to work ahead and Logism doesn't let me control paste things
 
+Default ImmSel:
+I --> 0
+S --> 1
+B --> 2
+U --> 3
+J --> 4
+(R should not have one)
 
 TODO: 
 * use opcode values to determine how to use multiplexor to choose which format to use

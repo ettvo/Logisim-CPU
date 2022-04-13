@@ -877,17 +877,18 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(3030,1660)" name="Constant">
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1690)" name="Constant">
-      <a name="value" val="0x2"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1720)" name="Constant">
       <a name="value" val="0x3"/>
       <a name="width" val="3"/>
     </comp>
+    <comp lib="0" loc="(3030,1690)" name="Constant">
+      <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(3030,1720)" name="Constant">
+      <a name="value" val="0x7"/>
+      <a name="width" val="3"/>
+    </comp>
     <comp lib="0" loc="(3030,1750)" name="Constant">
+      <a name="value" val="0x3"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(3030,1780)" name="Constant">
@@ -899,7 +900,7 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(3030,1840)" name="Constant">
-      <a name="value" val="0x5"/>
+      <a name="value" val="0x2"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(3090,1520)" name="Tunnel">
@@ -1422,6 +1423,12 @@
       <a name="label" val="imm7"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
+    <comp lib="0" loc="(650,2690)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ImmSel"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+      <a name="width" val="3"/>
+    </comp>
     <comp lib="0" loc="(660,1590)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit0" val="none"/>
@@ -1613,6 +1620,10 @@
       <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(690,2660)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="16"/>
+    </comp>
+    <comp lib="0" loc="(690,2690)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="16"/>
     </comp>
@@ -2627,73 +2638,45 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="These determine"/>
     </comp>
-    <comp lib="5" loc="(3193,1677)" name="Text">
+    <comp lib="5" loc="(3216,1677)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
+      <a name="text" val="S-Format = 3 --&gt; 1"/>
     </comp>
-    <comp lib="5" loc="(3196,1698)" name="Text">
+    <comp lib="5" loc="(3223,1698)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
+      <a name="text" val="R-Format = 4 --&gt; n/a"/>
     </comp>
-    <comp lib="5" loc="(3203,1719)" name="Text">
+    <comp lib="5" loc="(3224,1759)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
+      <a name="text" val="J-Format jalr = 7 --&gt; 4"/>
     </comp>
-    <comp lib="5" loc="(3203,1740)" name="Text">
+    <comp lib="5" loc="(3225,1719)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
+      <a name="text" val="U-Format lui = 5 --&gt; 3"/>
     </comp>
-    <comp lib="5" loc="(3205,1759)" name="Text">
+    <comp lib="5" loc="(3225,1740)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
+      <a name="text" val="J-Formal jal = 6 --&gt; 4"/>
     </comp>
-    <comp lib="5" loc="(3210,1777)" name="Text">
+    <comp lib="5" loc="(3225,1777)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(3211,1659)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(3220,1624)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
+      <a name="text" val="Branch / Store = 8 --&gt; 2"/>
     </comp>
     <comp lib="5" loc="(3232,1610)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
+      <a name="text" val="ImmSel Key:"/>
     </comp>
-    <comp lib="5" loc="(3246,1443)" name="Text">
+    <comp lib="5" loc="(3234,1660)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="format_simp key:"/>
+      <a name="text" val="U-Format auipc = 2 --&gt; 3"/>
     </comp>
-    <comp lib="5" loc="(3247,1641)" name="Text">
+    <comp lib="5" loc="(3244,1625)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
+      <a name="text" val="I-Format --&gt; Load = 0 --&gt; 0"/>
     </comp>
-    <comp lib="5" loc="(3248,1462)" name="Text">
+    <comp lib="5" loc="(3267,1641)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format = 0"/>
-    </comp>
-    <comp lib="5" loc="(3248,1481)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format = 1"/>
-    </comp>
-    <comp lib="5" loc="(3248,1531)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(3250,1498)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 2"/>
-    </comp>
-    <comp lib="5" loc="(3250,1513)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(3264,1551)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch-Format = 5"/>
+      <a name="text" val="I-Format --&gt; imm log/arith = 1 --&gt; 0"/>
     </comp>
     <comp lib="5" loc="(3283,2447)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -3617,6 +3600,7 @@
     <wire from="(650,2600)" to="(690,2600)"/>
     <wire from="(650,2630)" to="(690,2630)"/>
     <wire from="(650,2660)" to="(690,2660)"/>
+    <wire from="(650,2690)" to="(690,2690)"/>
     <wire from="(660,1390)" to="(680,1390)"/>
     <wire from="(660,1590)" to="(670,1590)"/>
     <wire from="(660,1760)" to="(660,1790)"/>
