@@ -217,4 +217,4 @@ TODO:
 * jump instructions for B-format in imm-gen specifics not fully implemented
 * immediate format currently sign extends even for unsigned operations (FIX)
 * make it pass imm_gen tests (fix B, J, S, U formats)
-* Start Task 7.1
+* Start Task 7.2 --> make imm_gen put out correct immediate value for B format instructions
