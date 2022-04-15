@@ -5,8 +5,7 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
+      <a name="facing" val="west"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -492,12 +491,6 @@
       <a name="fanout" val="3"/>
       <a name="incoming" val="12"/>
     </comp>
-    <comp lib="0" loc="(270,760)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct3"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="3"/>
-    </comp>
     <comp lib="0" loc="(280,1130)" name="Bit Extender">
       <a name="in_width" val="13"/>
       <a name="out_width" val="32"/>
@@ -847,9 +840,6 @@
       <a name="select" val="3"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="3" loc="(340,770)" name="Comparator">
-      <a name="width" val="3"/>
-    </comp>
     <comp lib="5" loc="(1011,93)" name="Text">
       <a name="text" val="OUTPUT from your circuit"/>
     </comp>
@@ -1040,7 +1030,6 @@
     <wire from="(240,1350)" to="(280,1350)"/>
     <wire from="(260,1010)" to="(290,1010)"/>
     <wire from="(270,570)" to="(300,570)"/>
-    <wire from="(270,760)" to="(300,760)"/>
     <wire from="(280,1130)" to="(300,1130)"/>
     <wire from="(30,100)" to="(220,100)"/>
     <wire from="(30,100)" to="(30,260)"/>
