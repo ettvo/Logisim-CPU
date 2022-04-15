@@ -585,6 +585,10 @@
       <a name="label" val="MemWriteData"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1830,2790)" name="Constant">
+      <a name="value" val="0x8"/>
+      <a name="width" val="5"/>
+    </comp>
     <comp lib="0" loc="(1840,1190)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="I_load_dest"/>
@@ -656,10 +660,26 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(1840,2850)" name="Constant">
+      <a name="value" val="0x2"/>
+      <a name="width" val="3"/>
+    </comp>
     <comp lib="0" loc="(1850,130)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MemAddress"/>
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1860,2760)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="opcode2_7"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="0" loc="(1860,2820)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="funct3"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+      <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1880,130)" name="Pin">
       <a name="facing" val="west"/>
@@ -728,6 +748,10 @@
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
     </comp>
+    <comp lib="0" loc="(2030,2800)" name="Tunnel">
+      <a name="label" val="St_B_MemWEn"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+    </comp>
     <comp lib="0" loc="(2050,430)" name="Tunnel">
       <a name="label" val="MemWriteMask"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -764,6 +788,14 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(2250,2380)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(2250,2620)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="St_B_MemWEn"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+    </comp>
     <comp lib="0" loc="(2270,1530)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="BrLT"/>
@@ -783,9 +815,8 @@
     </comp>
     <comp lib="0" loc="(2360,2300)" name="Tunnel">
       <a name="facing" val="south"/>
-      <a name="label" val="MemRW"/>
+      <a name="label" val="MemWEn"/>
       <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="5"/>
     </comp>
     <comp lib="0" loc="(2390,1910)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -2003,6 +2034,7 @@
       <a name="label" val="BrEq"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
+    <comp lib="1" loc="(2000,2800)" name="AND Gate"/>
     <comp lib="10" loc="(910,760)" name="imm_gen"/>
     <comp lib="11" loc="(2030,430)" name="partial_store"/>
     <comp lib="12" loc="(2030,590)" name="partial_load"/>
@@ -2050,7 +2082,6 @@
       <a name="enable" val="false"/>
       <a name="facing" val="north"/>
       <a name="select" val="4"/>
-      <a name="width" val="5"/>
     </comp>
     <comp lib="2" loc="(2390,1930)" name="Multiplexer">
       <a name="enable" val="false"/>
@@ -2125,6 +2156,12 @@
       <a name="facing" val="north"/>
       <a name="select" val="2"/>
       <a name="width" val="4"/>
+    </comp>
+    <comp lib="3" loc="(1910,2770)" name="Comparator">
+      <a name="width" val="5"/>
+    </comp>
+    <comp lib="3" loc="(1910,2830)" name="Comparator">
+      <a name="width" val="3"/>
     </comp>
     <comp lib="3" loc="(210,530)" name="Adder">
       <a name="width" val="32"/>
@@ -2273,7 +2310,11 @@
     </comp>
     <comp lib="5" loc="(1574,2459)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="This row has template, MemRW, RegWEn, WBSel, funct7_edit"/>
+      <a name="text" val="This row has template, MemWEn, RegWEn, WBSel, funct7_edit"/>
+    </comp>
+    <comp lib="5" loc="(1581,2773)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="This row has St_B_MemWEn"/>
     </comp>
     <comp lib="5" loc="(1602,2096)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2485,6 +2526,10 @@
     <comp lib="5" loc="(2267,1909)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="These determine"/>
+    </comp>
+    <comp lib="5" loc="(2329,2650)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="(assuming 0 = read; 1 = write)"/>
     </comp>
     <comp lib="5" loc="(2333,1687)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -3377,6 +3422,7 @@
     <wire from="(1830,1590)" to="(1830,1640)"/>
     <wire from="(1830,220)" to="(1830,250)"/>
     <wire from="(1830,270)" to="(1880,270)"/>
+    <wire from="(1830,2790)" to="(1860,2790)"/>
     <wire from="(1830,290)" to="(1830,330)"/>
     <wire from="(1830,330)" to="(2220,330)"/>
     <wire from="(1830,50)" to="(1830,110)"/>
@@ -3396,6 +3442,7 @@
     <wire from="(1840,1970)" to="(1870,1970)"/>
     <wire from="(1840,200)" to="(1880,200)"/>
     <wire from="(1840,2360)" to="(1870,2360)"/>
+    <wire from="(1840,2850)" to="(1860,2850)"/>
     <wire from="(1850,1170)" to="(1850,1190)"/>
     <wire from="(1850,130)" to="(1880,130)"/>
     <wire from="(1850,1590)" to="(1850,1700)"/>
@@ -3419,6 +3466,12 @@
     <wire from="(1860,2580)" to="(1930,2580)"/>
     <wire from="(1860,2610)" to="(1940,2610)"/>
     <wire from="(1860,2640)" to="(1950,2640)"/>
+    <wire from="(1860,2760)" to="(1870,2760)"/>
+    <wire from="(1860,2780)" to="(1860,2790)"/>
+    <wire from="(1860,2780)" to="(1870,2780)"/>
+    <wire from="(1860,2820)" to="(1870,2820)"/>
+    <wire from="(1860,2840)" to="(1860,2850)"/>
+    <wire from="(1860,2840)" to="(1870,2840)"/>
     <wire from="(1870,1170)" to="(1870,1250)"/>
     <wire from="(1870,1590)" to="(1870,1760)"/>
     <wire from="(1870,1990)" to="(1870,2010)"/>
@@ -3441,6 +3494,8 @@
     <wire from="(1910,1170)" to="(1910,1370)"/>
     <wire from="(1910,1990)" to="(1910,2130)"/>
     <wire from="(1910,2380)" to="(1910,2520)"/>
+    <wire from="(1910,2770)" to="(1930,2770)"/>
+    <wire from="(1910,2830)" to="(1930,2830)"/>
     <wire from="(1920,1170)" to="(1920,1400)"/>
     <wire from="(1920,1990)" to="(1920,2160)"/>
     <wire from="(1920,2380)" to="(1920,2550)"/>
@@ -3450,6 +3505,10 @@
     <wire from="(1930,1170)" to="(1930,1430)"/>
     <wire from="(1930,1990)" to="(1930,2190)"/>
     <wire from="(1930,2380)" to="(1930,2580)"/>
+    <wire from="(1930,2770)" to="(1930,2780)"/>
+    <wire from="(1930,2780)" to="(1950,2780)"/>
+    <wire from="(1930,2820)" to="(1930,2830)"/>
+    <wire from="(1930,2820)" to="(1950,2820)"/>
     <wire from="(1940,1530)" to="(1940,1540)"/>
     <wire from="(1940,1990)" to="(1940,2220)"/>
     <wire from="(1940,2380)" to="(1940,2610)"/>
@@ -3471,6 +3530,7 @@
     <wire from="(200,570)" to="(230,570)"/>
     <wire from="(200,70)" to="(200,130)"/>
     <wire from="(200,70)" to="(590,70)"/>
+    <wire from="(2000,2800)" to="(2030,2800)"/>
     <wire from="(2030,430)" to="(2050,430)"/>
     <wire from="(2030,450)" to="(2030,460)"/>
     <wire from="(2030,460)" to="(2060,460)"/>
@@ -3497,20 +3557,28 @@
     <wire from="(2240,1590)" to="(2240,1760)"/>
     <wire from="(2250,1590)" to="(2250,1790)"/>
     <wire from="(2250,2340)" to="(2280,2340)"/>
+    <wire from="(2250,2380)" to="(2260,2380)"/>
+    <wire from="(2250,2620)" to="(2360,2620)"/>
     <wire from="(2260,1590)" to="(2260,1820)"/>
+    <wire from="(2260,2380)" to="(2260,2410)"/>
+    <wire from="(2260,2380)" to="(2280,2380)"/>
+    <wire from="(2260,2410)" to="(2260,2440)"/>
+    <wire from="(2260,2410)" to="(2290,2410)"/>
+    <wire from="(2260,2440)" to="(2260,2470)"/>
+    <wire from="(2260,2440)" to="(2300,2440)"/>
+    <wire from="(2260,2470)" to="(2260,2500)"/>
+    <wire from="(2260,2470)" to="(2310,2470)"/>
+    <wire from="(2260,2500)" to="(2260,2530)"/>
+    <wire from="(2260,2500)" to="(2320,2500)"/>
+    <wire from="(2260,2530)" to="(2260,2560)"/>
+    <wire from="(2260,2530)" to="(2330,2530)"/>
+    <wire from="(2260,2560)" to="(2260,2590)"/>
+    <wire from="(2260,2560)" to="(2340,2560)"/>
+    <wire from="(2260,2590)" to="(2350,2590)"/>
     <wire from="(2270,1530)" to="(2270,1540)"/>
     <wire from="(2270,1540)" to="(2270,1550)"/>
     <wire from="(2270,1540)" to="(2310,1540)"/>
     <wire from="(2270,1590)" to="(2270,1850)"/>
-    <wire from="(2270,2380)" to="(2280,2380)"/>
-    <wire from="(2270,2410)" to="(2290,2410)"/>
-    <wire from="(2270,2440)" to="(2300,2440)"/>
-    <wire from="(2270,2470)" to="(2310,2470)"/>
-    <wire from="(2270,2500)" to="(2320,2500)"/>
-    <wire from="(2270,2530)" to="(2330,2530)"/>
-    <wire from="(2270,2560)" to="(2340,2560)"/>
-    <wire from="(2270,2590)" to="(2350,2590)"/>
-    <wire from="(2270,2620)" to="(2360,2620)"/>
     <wire from="(2280,1950)" to="(2310,1950)"/>
     <wire from="(2280,2360)" to="(2280,2380)"/>
     <wire from="(2290,2360)" to="(2290,2410)"/>
