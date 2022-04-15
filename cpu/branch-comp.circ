@@ -138,6 +138,46 @@
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
+    <comp lib="0" loc="(130,500)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData1"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(130,540)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData2"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(130,790)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData1"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(130,830)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData2"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(130,890)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData1"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(130,930)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData2"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(140,600)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData1"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(140,640)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrData2"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(230,160)" name="Pin">
       <a name="label" val="BrData1"/>
       <a name="locked" val="true"/>
@@ -163,6 +203,28 @@
     <comp lib="0" loc="(250,310)" name="Tunnel">
       <a name="label" val="BrUn"/>
     </comp>
+    <comp lib="0" loc="(290,480)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrUn"/>
+    </comp>
+    <comp lib="0" loc="(290,580)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrUn"/>
+    </comp>
+    <comp lib="0" loc="(290,780)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrUn"/>
+    </comp>
+    <comp lib="0" loc="(290,880)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="BrUn"/>
+    </comp>
+    <comp lib="0" loc="(540,550)" name="Tunnel">
+      <a name="label" val="BrEq"/>
+    </comp>
+    <comp lib="0" loc="(540,850)" name="Tunnel">
+      <a name="label" val="BrLt"/>
+    </comp>
     <comp lib="0" loc="(930,130)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="BrEq"/>
@@ -183,16 +245,102 @@
       <a name="locked" val="true"/>
       <a name="output" val="true"/>
     </comp>
+    <comp lib="1" loc="(330,480)" name="NOT Gate"/>
+    <comp lib="1" loc="(330,780)" name="NOT Gate"/>
+    <comp lib="1" loc="(390,500)" name="AND Gate"/>
+    <comp lib="1" loc="(390,600)" name="AND Gate"/>
+    <comp lib="1" loc="(390,800)" name="AND Gate"/>
+    <comp lib="1" loc="(390,900)" name="AND Gate"/>
+    <comp lib="1" loc="(530,550)" name="OR Gate"/>
+    <comp lib="1" loc="(530,850)" name="OR Gate"/>
+    <comp lib="3" loc="(210,520)" name="Comparator">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(210,810)" name="Comparator">
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(210,910)" name="Comparator">
+      <a name="mode" val="unsigned"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="3" loc="(220,620)" name="Comparator">
+      <a name="mode" val="unsigned"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="5" loc="(134,468)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="signed comparison"/>
+    </comp>
+    <comp lib="5" loc="(134,758)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="signed comparison"/>
+    </comp>
+    <comp lib="5" loc="(140,385)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="0 = signed comparison"/>
+    </comp>
+    <comp lib="5" loc="(146,407)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="1 = unsigned comparison"/>
+    </comp>
     <comp lib="5" loc="(169,92)" name="Text">
       <a name="text" val="INPUTS to your circuit"/>
+    </comp>
+    <comp lib="5" loc="(202,957)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="unsigned comparison"/>
+    </comp>
+    <comp lib="5" loc="(209,663)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="unsigned comparison"/>
     </comp>
     <comp lib="5" loc="(562,43)" name="Text">
       <a name="text" val="DON'T CHANGE THE LOCATIONS OF THE INPUTS AND OUTPUTS!"/>
     </comp>
+    <comp lib="5" loc="(750,191)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="BrLt = 1 iff rs1 &lt; rs2"/>
+    </comp>
+    <comp lib="5" loc="(759,134)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="BrEq = 1 iff values equal"/>
+    </comp>
     <comp lib="5" loc="(974,95)" name="Text">
       <a name="text" val="OUTPUT from your circuit"/>
     </comp>
+    <comp lib="5" loc="(99,368)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="BrUn Key:"/>
+    </comp>
     <wire from="(1020,100)" to="(1020,210)"/>
+    <wire from="(130,500)" to="(160,500)"/>
+    <wire from="(130,540)" to="(160,540)"/>
+    <wire from="(130,790)" to="(160,790)"/>
+    <wire from="(130,830)" to="(160,830)"/>
+    <wire from="(130,890)" to="(160,890)"/>
+    <wire from="(130,930)" to="(160,930)"/>
+    <wire from="(140,600)" to="(170,600)"/>
+    <wire from="(140,640)" to="(170,640)"/>
+    <wire from="(160,500)" to="(160,510)"/>
+    <wire from="(160,510)" to="(170,510)"/>
+    <wire from="(160,530)" to="(160,540)"/>
+    <wire from="(160,530)" to="(170,530)"/>
+    <wire from="(160,790)" to="(160,800)"/>
+    <wire from="(160,800)" to="(170,800)"/>
+    <wire from="(160,820)" to="(160,830)"/>
+    <wire from="(160,820)" to="(170,820)"/>
+    <wire from="(160,890)" to="(160,900)"/>
+    <wire from="(160,900)" to="(170,900)"/>
+    <wire from="(160,920)" to="(160,930)"/>
+    <wire from="(160,920)" to="(170,920)"/>
+    <wire from="(170,600)" to="(170,610)"/>
+    <wire from="(170,610)" to="(180,610)"/>
+    <wire from="(170,630)" to="(170,640)"/>
+    <wire from="(170,630)" to="(180,630)"/>
+    <wire from="(210,520)" to="(340,520)"/>
+    <wire from="(210,820)" to="(340,820)"/>
+    <wire from="(210,920)" to="(340,920)"/>
+    <wire from="(220,620)" to="(340,620)"/>
     <wire from="(230,160)" to="(250,160)"/>
     <wire from="(230,250)" to="(250,250)"/>
     <wire from="(230,310)" to="(250,310)"/>
@@ -200,6 +348,26 @@
     <wire from="(250,180)" to="(250,230)"/>
     <wire from="(250,270)" to="(250,290)"/>
     <wire from="(250,330)" to="(250,340)"/>
+    <wire from="(290,480)" to="(300,480)"/>
+    <wire from="(290,580)" to="(340,580)"/>
+    <wire from="(290,780)" to="(300,780)"/>
+    <wire from="(290,880)" to="(340,880)"/>
+    <wire from="(330,480)" to="(340,480)"/>
+    <wire from="(330,780)" to="(340,780)"/>
+    <wire from="(390,500)" to="(440,500)"/>
+    <wire from="(390,600)" to="(440,600)"/>
+    <wire from="(390,800)" to="(440,800)"/>
+    <wire from="(390,900)" to="(440,900)"/>
+    <wire from="(440,500)" to="(440,530)"/>
+    <wire from="(440,530)" to="(480,530)"/>
+    <wire from="(440,570)" to="(440,600)"/>
+    <wire from="(440,570)" to="(480,570)"/>
+    <wire from="(440,800)" to="(440,830)"/>
+    <wire from="(440,830)" to="(480,830)"/>
+    <wire from="(440,870)" to="(440,900)"/>
+    <wire from="(440,870)" to="(480,870)"/>
+    <wire from="(530,550)" to="(540,550)"/>
+    <wire from="(530,850)" to="(540,850)"/>
     <wire from="(80,100)" to="(250,100)"/>
     <wire from="(80,100)" to="(80,340)"/>
     <wire from="(80,340)" to="(250,340)"/>
