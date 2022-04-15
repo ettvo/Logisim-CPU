@@ -217,4 +217,4 @@ TODO:
 * jump instructions for B-format in imm-gen specifics not fully implemented
 * immediate format currently sign extends even for unsigned operations (FIX)
 * make it pass imm_gen tests (fix B, J, S, U formats)
-* put correct bottom values for R_funct7_0x##
+* Start Task 7.1
