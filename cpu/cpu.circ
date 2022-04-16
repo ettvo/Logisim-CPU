@@ -145,7 +145,7 @@
     <a name="clabel" val=""/>
     <a name="clabelfont" val="SansSerif bold 16"/>
     <a name="clabelup" val="east"/>
-    <comp lib="0" loc="(1040,900)" name="Tunnel">
+    <comp lib="0" loc="(1040,910)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="BrLt"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -240,7 +240,7 @@
       <a name="label" val="t0"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1090,900)" name="Tunnel">
+    <comp lib="0" loc="(1090,910)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="BrUn"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -279,7 +279,7 @@
       <a name="value" val="0x5"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(1140,900)" name="Tunnel">
+    <comp lib="0" loc="(1140,910)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="ASel"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -302,7 +302,7 @@
       <a name="value" val="0x2"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(1190,900)" name="Tunnel">
+    <comp lib="0" loc="(1190,910)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="BSel"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -336,7 +336,7 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1240,870)" name="Tunnel">
+    <comp lib="0" loc="(1240,880)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="ALUSel"/>
       <a name="labelfont" val="SansSerif bold 12"/>
@@ -354,7 +354,7 @@
     <comp lib="0" loc="(1290,630)" name="Probe">
       <a name="radix" val="16"/>
     </comp>
-    <comp lib="0" loc="(1290,900)" name="Tunnel">
+    <comp lib="0" loc="(1290,910)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="MemWEn"/>
       <a name="labelfont" val="SansSerif bold 12"/>
@@ -371,7 +371,7 @@
       <a name="label" val="s0"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1350,900)" name="Tunnel">
+    <comp lib="0" loc="(1340,880)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="WBSel"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -580,10 +580,6 @@
       <a name="label" val="MemWriteData"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1830,2790)" name="Constant">
-      <a name="value" val="0x8"/>
-      <a name="width" val="5"/>
-    </comp>
     <comp lib="0" loc="(1840,1190)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="I_load_dest"/>
@@ -638,12 +634,6 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="0" loc="(1840,1970)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
     <comp lib="0" loc="(1840,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MemWriteMask"/>
@@ -655,26 +645,10 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(1840,2850)" name="Constant">
-      <a name="value" val="0x2"/>
-      <a name="width" val="3"/>
-    </comp>
     <comp lib="0" loc="(1850,130)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MemAddress"/>
       <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(1860,2760)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="opcode2_7"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="0" loc="(1860,2820)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct3"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1880,130)" name="Pin">
       <a name="facing" val="west"/>
@@ -703,21 +677,12 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="0" loc="(1950,1930)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="BrUn"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
     <comp lib="0" loc="(1950,2320)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="5"/>
     </comp>
     <comp lib="0" loc="(1980,1110)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(1980,1930)" name="Probe">
       <a name="facing" val="west"/>
       <a name="radix" val="16"/>
     </comp>
@@ -734,10 +699,6 @@
       <a name="facing" val="east"/>
       <a name="label" val="clk"/>
     </comp>
-    <comp lib="0" loc="(2030,2800)" name="Tunnel">
-      <a name="label" val="St_B_MemWEn"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
     <comp lib="0" loc="(2050,430)" name="Tunnel">
       <a name="label" val="MemWriteMask"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -752,45 +713,7 @@
       <a name="label" val="MemReadData"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(2250,2340)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(2250,2380)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(2250,2620)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="St_B_MemWEn"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(2280,1950)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
     <comp lib="0" loc="(230,550)" name="Constant"/>
-    <comp lib="0" loc="(2360,2300)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="MemWEn"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(2390,1910)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="ASel"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(2410,2300)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(2420,1910)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
     <comp lib="0" loc="(250,150)" name="Pin">
       <a name="facing" val="west"/>
       <a name="label" val="ProgramCounter"/>
@@ -801,400 +724,9 @@
     <comp lib="0" loc="(260,450)" name="Probe">
       <a name="radix" val="16"/>
     </comp>
-    <comp lib="0" loc="(2640,2470)" name="Constant"/>
-    <comp lib="0" loc="(2650,1560)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(2700,1960)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(2700,2350)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(2720,2480)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(2720,2630)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(2760,1520)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="PCSel"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(2800,1520)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(2810,1920)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="BSel"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(2810,2310)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="RegWEn"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(2850,1920)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(2870,2300)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(3020,1560)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3030,1600)" name="Constant">
-      <a name="value" val="0x0"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1630)" name="Constant">
-      <a name="value" val="0x0"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1660)" name="Constant">
-      <a name="value" val="0x3"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1690)" name="Constant">
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1720)" name="Constant">
-      <a name="value" val="0x7"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1750)" name="Constant">
-      <a name="value" val="0x3"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1780)" name="Constant">
-      <a name="value" val="0x4"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1810)" name="Constant">
-      <a name="value" val="0x4"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3030,1840)" name="Constant">
-      <a name="value" val="0x2"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3090,1520)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="ImmSel"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3100,1980)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct3_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3110,2330)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3140,1940)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct3_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3140,2130)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="I_funct7"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3160,1520)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="format_simp"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3180,1530)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(3220,2290)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="WBSel"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="2"/>
-    </comp>
-    <comp lib="0" loc="(3250,1900)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="I_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3260,2300)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(3290,1910)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
     <comp lib="0" loc="(340,530)" name="Tunnel">
       <a name="label" val="ProgramCounter"/>
       <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(3440,1930)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct7_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="2"/>
-    </comp>
-    <comp lib="0" loc="(3440,1970)" name="Constant">
-      <a name="value" val="0x5"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3440,2030)" name="Constant">
-      <a name="value" val="0xd"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3440,2090)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct3"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="0" loc="(3440,2140)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct7"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="7"/>
-    </comp>
-    <comp lib="0" loc="(3450,2140)" name="Splitter">
-      <a name="appear" val="center"/>
-      <a name="bit1" val="none"/>
-      <a name="bit2" val="none"/>
-      <a name="bit3" val="none"/>
-      <a name="bit4" val="none"/>
-      <a name="bit5" val="none"/>
-      <a name="bit6" val="1"/>
-      <a name="incoming" val="7"/>
-    </comp>
-    <comp lib="0" loc="(3470,1520)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="format"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3470,1560)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="I_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3470,1620)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="U_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3470,1650)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="S_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3470,1680)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="R_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3470,1710)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="U_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3470,1740)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="J_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3470,1800)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Branch_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3500,2090)" name="Bit Extender">
-      <a name="in_width" val="3"/>
-      <a name="out_width" val="4"/>
-      <a name="type" val="zero"/>
-    </comp>
-    <comp lib="0" loc="(3510,1890)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="I_funct7"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3510,2140)" name="Splitter">
-      <a name="appear" val="center"/>
-      <a name="facing" val="west"/>
-    </comp>
-    <comp lib="0" loc="(3520,2140)" name="Tunnel">
-      <a name="label" val="funct7_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="2"/>
-    </comp>
-    <comp lib="0" loc="(3530,1900)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(3530,2090)" name="Tunnel">
-      <a name="label" val="funct3_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3580,1480)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="ALUSel"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3620,1490)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(3780,1950)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="R_funct7_0x0"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3780,1980)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="R_funct7_0x01"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3780,2010)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct3_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3820,1910)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct3_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3830,2100)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="R_funct7_0x05"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3930,1870)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="R_format_alu"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(3970,1880)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(4140,1890)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct7_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="2"/>
-    </comp>
-    <comp lib="0" loc="(4140,1930)" name="Constant">
-      <a name="value" val="0x0"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4140,1960)" name="Constant">
-      <a name="value" val="0x8"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4140,1990)" name="Constant">
-      <a name="value" val="0xc"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4150,2080)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct7_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="2"/>
-    </comp>
-    <comp lib="0" loc="(4150,2120)" name="Constant">
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4150,2150)" name="Constant">
-      <a name="value" val="0x9"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4210,1850)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="R_funct7_0x0"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4220,2040)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="R_funct7_0x01"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4230,1860)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(4240,2050)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
-    </comp>
-    <comp lib="0" loc="(4490,1900)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="funct7_edit"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="2"/>
-    </comp>
-    <comp lib="0" loc="(4490,1940)" name="Constant">
-      <a name="value" val="0x5"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4490,2000)" name="Constant">
-      <a name="value" val="0xd"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4560,1860)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="label" val="R_funct7_0x05"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(4580,1870)" name="Probe">
-      <a name="facing" val="west"/>
-      <a name="radix" val="16"/>
     </comp>
     <comp lib="0" loc="(520,200)" name="Pin">
       <a name="label" val="Instruction"/>
@@ -1877,7 +1409,7 @@
       <a name="label" val="ra"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(890,900)" name="Tunnel">
+    <comp lib="0" loc="(890,910)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="RegWEn"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -1930,7 +1462,7 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(940,870)" name="Tunnel">
+    <comp lib="0" loc="(940,880)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="ImmSel"/>
       <a name="labelfont" val="SansSerif bold 12"/>
@@ -1989,12 +1521,11 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(990,900)" name="Tunnel">
+    <comp lib="0" loc="(990,910)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="BrEq"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
-    <comp lib="1" loc="(2000,2800)" name="AND Gate"/>
     <comp lib="10" loc="(910,760)" name="imm_gen"/>
     <comp lib="11" loc="(2030,430)" name="partial_store"/>
     <comp lib="12" loc="(2030,590)" name="partial_load"/>
@@ -2016,101 +1547,11 @@
       <a name="select" val="4"/>
       <a name="width" val="5"/>
     </comp>
-    <comp lib="2" loc="(1950,1950)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-    </comp>
     <comp lib="2" loc="(1950,2340)" name="Multiplexer">
       <a name="enable" val="false"/>
       <a name="facing" val="north"/>
       <a name="select" val="4"/>
       <a name="width" val="5"/>
-    </comp>
-    <comp lib="2" loc="(2360,2320)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-    </comp>
-    <comp lib="2" loc="(2390,1930)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-    </comp>
-    <comp lib="2" loc="(2760,1540)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-    </comp>
-    <comp lib="2" loc="(2810,1940)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-    </comp>
-    <comp lib="2" loc="(2810,2330)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-    </comp>
-    <comp lib="2" loc="(3130,1540)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-      <a name="width" val="3"/>
-    </comp>
-    <comp lib="2" loc="(3220,2310)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-      <a name="width" val="2"/>
-    </comp>
-    <comp lib="2" loc="(3250,1920)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="2" loc="(3510,1910)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="2"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="2" loc="(3580,1500)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="2" loc="(3930,1890)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="4"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="2" loc="(4210,1870)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="2"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="2" loc="(4220,2060)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="2"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="2" loc="(4560,1880)" name="Multiplexer">
-      <a name="enable" val="false"/>
-      <a name="facing" val="north"/>
-      <a name="select" val="2"/>
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="3" loc="(1910,2770)" name="Comparator">
-      <a name="width" val="5"/>
-    </comp>
-    <comp lib="3" loc="(1910,2830)" name="Comparator">
-      <a name="width" val="3"/>
     </comp>
     <comp lib="3" loc="(210,530)" name="Adder">
       <a name="width" val="32"/>
@@ -2120,49 +1561,41 @@
       <a name="label" val="PC"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="5" loc="(1038,2003)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(1041,2024)" name="Text">
+    <comp lib="5" loc="(1002,2027)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="R-Format = 4"/>
     </comp>
-    <comp lib="5" loc="(1048,2045)" name="Text">
+    <comp lib="5" loc="(1009,2048)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="U-Format lui = 5"/>
     </comp>
-    <comp lib="5" loc="(1048,2066)" name="Text">
+    <comp lib="5" loc="(1009,2069)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="J-Formal jal = 6"/>
     </comp>
-    <comp lib="5" loc="(1050,2085)" name="Text">
+    <comp lib="5" loc="(1011,2088)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="J-Format jalr = 7"/>
     </comp>
-    <comp lib="5" loc="(1055,2103)" name="Text">
+    <comp lib="5" loc="(1016,2106)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Branch / Store = 8"/>
     </comp>
-    <comp lib="5" loc="(1056,1985)" name="Text">
+    <comp lib="5" loc="(1017,1988)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="U-Format auipc = 2"/>
     </comp>
-    <comp lib="5" loc="(1064,1950)" name="Text">
+    <comp lib="5" loc="(1025,1953)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="I-Fomat --&gt; Load = 0"/>
     </comp>
-    <comp lib="5" loc="(1077,1936)" name="Text">
+    <comp lib="5" loc="(1053,1970)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
+      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
     </comp>
     <comp lib="5" loc="(1087,1140)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Need to determine B for non I, R, S, Branch "/>
-    </comp>
-    <comp lib="5" loc="(1092,1967)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
     </comp>
     <comp lib="5" loc="(1093,1119)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2282,16 +1715,68 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="This row has ImmSel, format_simp, ALUSel"/>
     </comp>
-    <comp lib="5" loc="(1827,1929)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
     <comp lib="5" loc="(1877,2324)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="[Template]"/>
     </comp>
+    <comp lib="5" loc="(1908,2781)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="sll = 1"/>
+    </comp>
+    <comp lib="5" loc="(1910,2803)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="slt = 2"/>
+    </comp>
+    <comp lib="5" loc="(1910,2864)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="or = 6"/>
+    </comp>
+    <comp lib="5" loc="(1911,2760)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="add = 0"/>
+    </comp>
+    <comp lib="5" loc="(1911,2822)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="srl = 5"/>
+    </comp>
+    <comp lib="5" loc="(1912,2844)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="xor = 4"/>
+    </comp>
+    <comp lib="5" loc="(1914,2737)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="ALU Key:"/>
+    </comp>
+    <comp lib="5" loc="(1915,2880)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="and = 7"/>
+    </comp>
+    <comp lib="5" loc="(1915,2964)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="sra = 13"/>
+    </comp>
+    <comp lib="5" loc="(1917,2948)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="sub = 12"/>
+    </comp>
     <comp lib="5" loc="(1919,84)" name="Text">
       <a name="text" val="To DMEM"/>
+    </comp>
+    <comp lib="5" loc="(1921,2983)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="bsel = 15"/>
+    </comp>
+    <comp lib="5" loc="(1924,2932)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="mulhu = 11"/>
+    </comp>
+    <comp lib="5" loc="(1934,2913)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="mulh (sign) = 9"/>
+    </comp>
+    <comp lib="5" loc="(1935,2896)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="mul (sign) = 8"/>
     </comp>
     <comp lib="5" loc="(1993,1267)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2321,17 +1806,9 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="U-Format auipc = 2"/>
     </comp>
-    <comp lib="5" loc="(2013,2087)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
     <comp lib="5" loc="(2013,2477)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(2016,2108)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
     </comp>
     <comp lib="5" loc="(2016,2498)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2341,14 +1818,6 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="I-Fomat --&gt; Load = 0"/>
     </comp>
-    <comp lib="5" loc="(2023,2129)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(2023,2150)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
     <comp lib="5" loc="(2023,2519)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="U-Format lui = 5"/>
@@ -2356,10 +1825,6 @@
     <comp lib="5" loc="(2023,2540)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(2025,2169)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
     </comp>
     <comp lib="5" loc="(2025,2559)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2369,17 +1834,9 @@
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="DMEM (do **NOT** move this)"/>
     </comp>
-    <comp lib="5" loc="(2030,2187)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
     <comp lib="5" loc="(2030,2577)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(2031,2069)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
     </comp>
     <comp lib="5" loc="(2031,2459)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2389,10 +1846,6 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Key:"/>
     </comp>
-    <comp lib="5" loc="(2039,2034)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
     <comp lib="5" loc="(2039,2424)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="I-Fomat --&gt; Load = 0"/>
@@ -2401,17 +1854,9 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
     </comp>
-    <comp lib="5" loc="(2052,2020)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
     <comp lib="5" loc="(2052,2410)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(2067,2051)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
     </comp>
     <comp lib="5" loc="(2067,2441)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2420,644 +1865,16 @@
     <comp lib="5" loc="(2137,85)" name="Text">
       <a name="text" val="From DMEM"/>
     </comp>
-    <comp lib="5" loc="(2237,2299)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
     <comp lib="5" loc="(2267,1909)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="These determine"/>
     </comp>
-    <comp lib="5" loc="(2329,2650)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="(assuming 0 = read; 1 = write)"/>
-    </comp>
-    <comp lib="5" loc="(2423,2457)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(2426,2478)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(2433,2499)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(2433,2520)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(2435,2539)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
-    </comp>
-    <comp lib="5" loc="(2440,2557)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(2441,2439)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(2449,2404)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
-    <comp lib="5" loc="(2453,2067)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(2456,2088)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(2462,2390)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(2463,2109)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(2463,2130)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(2465,2149)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
-    </comp>
-    <comp lib="5" loc="(2470,2167)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(2471,2049)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(2477,2421)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
-    </comp>
-    <comp lib="5" loc="(2479,2014)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
-    <comp lib="5" loc="(2492,2000)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(2507,2031)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
-    </comp>
-    <comp lib="5" loc="(2637,1519)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
-    <comp lib="5" loc="(2687,1919)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
-    <comp lib="5" loc="(2687,2309)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
-    <comp lib="5" loc="(2823,1677)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(2826,1698)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(2833,1719)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(2833,1740)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(2835,1759)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
-    </comp>
-    <comp lib="5" loc="(2840,1777)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(2841,1659)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(2849,1624)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
-    <comp lib="5" loc="(2862,1610)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(2873,2077)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(2873,2467)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(2876,2098)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(2876,2488)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(2877,1641)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
-    </comp>
-    <comp lib="5" loc="(2883,2119)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(2883,2140)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(2883,2509)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(2883,2530)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(2885,2159)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
-    </comp>
-    <comp lib="5" loc="(2885,2549)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
-    </comp>
-    <comp lib="5" loc="(2890,2177)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(2890,2567)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(2891,2059)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(2891,2449)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(2899,2024)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
-    <comp lib="5" loc="(2899,2414)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
     <comp lib="5" loc="(290,101)" name="Text">
       <a name="text" val="To IMEM"/>
-    </comp>
-    <comp lib="5" loc="(2912,2010)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(2912,2400)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(2927,2041)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
-    </comp>
-    <comp lib="5" loc="(2927,2431)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
-    </comp>
-    <comp lib="5" loc="(3007,1519)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
-    <comp lib="5" loc="(3097,2289)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
-    <comp lib="5" loc="(3127,1899)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
-    <comp lib="5" loc="(3216,1677)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3 --&gt; 1"/>
-    </comp>
-    <comp lib="5" loc="(3223,1698)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4 --&gt; n/a"/>
-    </comp>
-    <comp lib="5" loc="(3224,1759)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7 --&gt; 4"/>
-    </comp>
-    <comp lib="5" loc="(3225,1719)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5 --&gt; 3"/>
-    </comp>
-    <comp lib="5" loc="(3225,1740)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6 --&gt; 4"/>
-    </comp>
-    <comp lib="5" loc="(3225,1777)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8 --&gt; 2"/>
-    </comp>
-    <comp lib="5" loc="(3232,1610)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="ImmSel Key:"/>
-    </comp>
-    <comp lib="5" loc="(3234,1660)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2 --&gt; 3"/>
-    </comp>
-    <comp lib="5" loc="(3244,1625)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; Load = 0 --&gt; 0"/>
-    </comp>
-    <comp lib="5" loc="(3267,1641)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1 --&gt; 0"/>
-    </comp>
-    <comp lib="5" loc="(3283,2447)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(3286,2468)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(3293,2489)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(3293,2510)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(3295,2529)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
-    </comp>
-    <comp lib="5" loc="(3300,2547)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(3301,2429)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(3305,2040)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sll = 1"/>
-    </comp>
-    <comp lib="5" loc="(3307,2062)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="slt = 2"/>
-    </comp>
-    <comp lib="5" loc="(3307,2123)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="or = 6"/>
-    </comp>
-    <comp lib="5" loc="(3308,2019)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="add = 0"/>
-    </comp>
-    <comp lib="5" loc="(3308,2081)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="srl = 5"/>
-    </comp>
-    <comp lib="5" loc="(3309,2103)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="xor = 4"/>
-    </comp>
-    <comp lib="5" loc="(3309,2394)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
-    <comp lib="5" loc="(3311,1996)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="ALU Key:"/>
-    </comp>
-    <comp lib="5" loc="(3312,2139)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="and = 7"/>
-    </comp>
-    <comp lib="5" loc="(3312,2223)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sra = 13"/>
-    </comp>
-    <comp lib="5" loc="(3314,2207)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sub = 12"/>
-    </comp>
-    <comp lib="5" loc="(3318,2242)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="bsel = 15"/>
-    </comp>
-    <comp lib="5" loc="(3321,2191)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mulhu = 11"/>
-    </comp>
-    <comp lib="5" loc="(3322,2380)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(3331,2172)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mulh (sign) = 9"/>
-    </comp>
-    <comp lib="5" loc="(3332,2155)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mul (sign) = 8"/>
-    </comp>
-    <comp lib="5" loc="(3337,2411)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
-    </comp>
-    <comp lib="5" loc="(3505,1838)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="use format to determine processing funct7 in conjunction with funct3"/>
-    </comp>
-    <comp lib="5" loc="(3542,2288)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Note: funct_comb not yet defined"/>
-    </comp>
-    <comp lib="5" loc="(3547,2433)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b0 --&gt; 0x0"/>
-    </comp>
-    <comp lib="5" loc="(3568,2452)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b10 = 2 --&gt; 0x20"/>
-    </comp>
-    <comp lib="5" loc="(3568,2472)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b01 = 1 --&gt; 0x01"/>
-    </comp>
-    <comp lib="5" loc="(3575,1908)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(3606,1929)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0 == 0 --&gt; srl"/>
-    </comp>
-    <comp lib="5" loc="(3612,1969)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b10 = 2 --&gt; sra"/>
-    </comp>
-    <comp lib="5" loc="(3614,1947)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b01 = 1 --&gt; n/a"/>
-    </comp>
-    <comp lib="5" loc="(3628,2409)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="only need to deal with only first and last bit"/>
-    </comp>
-    <comp lib="5" loc="(3643,1637)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="S-Format = 3"/>
-    </comp>
-    <comp lib="5" loc="(3646,1658)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="R-Format = 4"/>
-    </comp>
-    <comp lib="5" loc="(3651,2390)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="funct7 = 0, 0x20 (100000), or 0x01 (01) "/>
-    </comp>
-    <comp lib="5" loc="(3653,1679)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format lui = 5"/>
-    </comp>
-    <comp lib="5" loc="(3653,1700)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
-    </comp>
-    <comp lib="5" loc="(3655,1719)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Format jalr = 7"/>
-    </comp>
-    <comp lib="5" loc="(3658,2229)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="can do addition for selection of item; use opcode as input; and output being funct_comb"/>
-    </comp>
-    <comp lib="5" loc="(3660,1737)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Branch / Store = 8"/>
-    </comp>
-    <comp lib="5" loc="(3661,1619)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="U-Format auipc = 2"/>
-    </comp>
-    <comp lib="5" loc="(3669,1584)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
-    </comp>
-    <comp lib="5" loc="(3682,1570)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(3697,1601)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; imm log/arith = 1"/>
-    </comp>
-    <comp lib="5" loc="(3807,1869)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="These determine"/>
-    </comp>
-    <comp lib="5" loc="(3985,2010)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sll = 1"/>
-    </comp>
-    <comp lib="5" loc="(3987,2032)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="slt = 2"/>
-    </comp>
-    <comp lib="5" loc="(3987,2093)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="or = 6"/>
-    </comp>
-    <comp lib="5" loc="(3988,1989)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="add = 0"/>
-    </comp>
-    <comp lib="5" loc="(3988,2051)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="srl = 5"/>
-    </comp>
-    <comp lib="5" loc="(3989,2073)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="xor = 4"/>
-    </comp>
-    <comp lib="5" loc="(3991,1966)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="ALU Key:"/>
-    </comp>
-    <comp lib="5" loc="(3992,2109)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="and = 7"/>
-    </comp>
-    <comp lib="5" loc="(3992,2193)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sra = 13"/>
-    </comp>
-    <comp lib="5" loc="(3994,2177)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sub = 12"/>
-    </comp>
-    <comp lib="5" loc="(3998,2212)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="bsel = 15"/>
-    </comp>
-    <comp lib="5" loc="(4001,2161)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mulhu = 11"/>
-    </comp>
-    <comp lib="5" loc="(4011,2142)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mulh (sign) = 9"/>
-    </comp>
-    <comp lib="5" loc="(4012,2125)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mul (sign) = 8"/>
     </comp>
     <comp lib="5" loc="(412,49)" name="Text">
       <a name="font" val="SansSerif bold 22"/>
       <a name="text" val="IMEM (do **NOT** move this)"/>
-    </comp>
-    <comp lib="5" loc="(4205,2227)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="special branches: 0 (3), 1 (2), 5 (2)"/>
-    </comp>
-    <comp lib="5" loc="(4275,1868)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(4287,2088)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(4314,1886)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b0 = 0 --&gt; add"/>
-    </comp>
-    <comp lib="5" loc="(4316,1908)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b01 = 1 --&gt; mul"/>
-    </comp>
-    <comp lib="5" loc="(4318,1929)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b10 = 2 --&gt; sub"/>
-    </comp>
-    <comp lib="5" loc="(4319,2106)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b0 = 0 --&gt; sll"/>
-    </comp>
-    <comp lib="5" loc="(4327,2150)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b10 = 2 --&gt; n/a"/>
-    </comp>
-    <comp lib="5" loc="(4330,2128)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b01 = 1 --&gt; mulh"/>
-    </comp>
-    <comp lib="5" loc="(4367,1797)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="TODO: put correct bottom values for R_funct7_0x##"/>
-    </comp>
-    <comp lib="5" loc="(4443,2091)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sll = 1"/>
-    </comp>
-    <comp lib="5" loc="(4445,2113)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="slt = 2"/>
-    </comp>
-    <comp lib="5" loc="(4445,2174)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="or = 6"/>
-    </comp>
-    <comp lib="5" loc="(4446,2070)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="add = 0"/>
-    </comp>
-    <comp lib="5" loc="(4446,2132)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="srl = 5"/>
-    </comp>
-    <comp lib="5" loc="(4447,2154)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="xor = 4"/>
-    </comp>
-    <comp lib="5" loc="(4449,2047)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="ALU Key:"/>
-    </comp>
-    <comp lib="5" loc="(4450,2190)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="and = 7"/>
-    </comp>
-    <comp lib="5" loc="(4450,2274)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sra = 13"/>
-    </comp>
-    <comp lib="5" loc="(4452,2258)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="sub = 12"/>
-    </comp>
-    <comp lib="5" loc="(4456,2293)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="bsel = 15"/>
-    </comp>
-    <comp lib="5" loc="(4459,2242)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mulhu = 11"/>
-    </comp>
-    <comp lib="5" loc="(4469,2223)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mulh (sign) = 9"/>
-    </comp>
-    <comp lib="5" loc="(4470,2206)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="mul (sign) = 8"/>
-    </comp>
-    <comp lib="5" loc="(4626,1914)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Key:"/>
-    </comp>
-    <comp lib="5" loc="(4658,1932)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b0 = 0 --&gt; srl"/>
-    </comp>
-    <comp lib="5" loc="(4666,1976)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b10 = 2 --&gt; sra"/>
-    </comp>
-    <comp lib="5" loc="(4669,1954)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="0b01 = 1 --&gt; n/a"/>
     </comp>
     <comp lib="5" loc="(480,100)" name="Text">
       <a name="text" val="From IMEM"/>
@@ -3070,10 +1887,51 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="funct3 (might have a problem being undefined)"/>
     </comp>
+    <comp lib="5" loc="(869,3186)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="Note: funct_comb not yet defined"/>
+    </comp>
+    <comp lib="5" loc="(874,3331)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="0b0 --&gt; 0x0"/>
+    </comp>
+    <comp lib="5" loc="(895,3350)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="0b10 = 2 --&gt; 0x20"/>
+    </comp>
+    <comp lib="5" loc="(895,3370)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="0b01 = 1 --&gt; 0x01"/>
+    </comp>
+    <comp lib="5" loc="(955,3307)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="only need to deal with only first and last bit"/>
+    </comp>
+    <comp lib="5" loc="(970,1934)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="Key:"/>
+    </comp>
+    <comp lib="5" loc="(974,2900)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="use format to determine processing funct7 in conjunction with funct3"/>
+    </comp>
+    <comp lib="5" loc="(978,3288)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="funct7 = 0, 0x20 (100000), or 0x01 (01) "/>
+    </comp>
+    <comp lib="5" loc="(985,3127)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="can do addition for selection of item; use opcode as input; and output being funct_comb"/>
+    </comp>
+    <comp lib="5" loc="(999,2006)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="S-Format = 3"/>
+    </comp>
     <comp lib="6" loc="(1400,540)" name="alu"/>
     <comp lib="7" loc="(910,430)" name="regfile"/>
     <comp lib="8" loc="(840,930)" name="control_logic"/>
     <comp lib="9" loc="(1410,740)" name="branch_comp"/>
+    <wire from="(1040,910)" to="(1040,930)"/>
     <wire from="(1050,1170)" to="(1070,1170)"/>
     <wire from="(1050,1240)" to="(1080,1240)"/>
     <wire from="(1050,1270)" to="(1090,1270)"/>
@@ -3092,6 +1950,7 @@
     <wire from="(1070,210)" to="(1120,210)"/>
     <wire from="(1080,1190)" to="(1080,1240)"/>
     <wire from="(1090,1190)" to="(1090,1270)"/>
+    <wire from="(1090,910)" to="(1090,930)"/>
     <wire from="(1100,1190)" to="(1100,1300)"/>
     <wire from="(1110,1190)" to="(1110,1330)"/>
     <wire from="(1120,1190)" to="(1120,1360)"/>
@@ -3103,6 +1962,7 @@
     <wire from="(1140,2140)" to="(1300,2140)"/>
     <wire from="(1140,2260)" to="(1340,2260)"/>
     <wire from="(1140,2290)" to="(1350,2290)"/>
+    <wire from="(1140,910)" to="(1140,930)"/>
     <wire from="(1150,1190)" to="(1150,1450)"/>
     <wire from="(1160,1190)" to="(1160,1480)"/>
     <wire from="(1160,210)" to="(1210,210)"/>
@@ -3113,6 +1973,7 @@
     <wire from="(1190,1190)" to="(1190,1570)"/>
     <wire from="(1190,2020)" to="(1260,2020)"/>
     <wire from="(1190,2050)" to="(1270,2050)"/>
+    <wire from="(1190,910)" to="(1190,930)"/>
     <wire from="(1200,1190)" to="(1200,1600)"/>
     <wire from="(1200,1860)" to="(1220,1860)"/>
     <wire from="(1200,1930)" to="(1230,1930)"/>
@@ -3137,6 +1998,7 @@
     <wire from="(1240,1490)" to="(1410,1490)"/>
     <wire from="(1240,1880)" to="(1240,1960)"/>
     <wire from="(1240,500)" to="(1260,500)"/>
+    <wire from="(1240,880)" to="(1240,930)"/>
     <wire from="(1250,1190)" to="(1250,1470)"/>
     <wire from="(1250,1470)" to="(1410,1470)"/>
     <wire from="(1250,1880)" to="(1250,1990)"/>
@@ -3160,6 +2022,7 @@
     <wire from="(1290,1880)" to="(1290,2110)"/>
     <wire from="(1290,600)" to="(1290,630)"/>
     <wire from="(1290,600)" to="(1320,600)"/>
+    <wire from="(1290,910)" to="(1290,930)"/>
     <wire from="(1300,1190)" to="(1300,1370)"/>
     <wire from="(1300,1370)" to="(1410,1370)"/>
     <wire from="(1300,1880)" to="(1300,2140)"/>
@@ -3177,6 +2040,7 @@
     <wire from="(1340,1290)" to="(1480,1290)"/>
     <wire from="(1340,1880)" to="(1340,2260)"/>
     <wire from="(1340,210)" to="(1390,210)"/>
+    <wire from="(1340,880)" to="(1340,930)"/>
     <wire from="(1350,1190)" to="(1350,1270)"/>
     <wire from="(1350,1270)" to="(1410,1270)"/>
     <wire from="(1350,1880)" to="(1350,2290)"/>
@@ -3264,7 +2128,6 @@
     <wire from="(1830,150)" to="(1830,180)"/>
     <wire from="(1830,220)" to="(1830,250)"/>
     <wire from="(1830,270)" to="(1880,270)"/>
-    <wire from="(1830,2790)" to="(1860,2790)"/>
     <wire from="(1830,290)" to="(1830,330)"/>
     <wire from="(1830,330)" to="(2220,330)"/>
     <wire from="(1830,50)" to="(1830,110)"/>
@@ -3280,22 +2143,11 @@
     <wire from="(1840,1370)" to="(1910,1370)"/>
     <wire from="(1840,1400)" to="(1920,1400)"/>
     <wire from="(1840,1430)" to="(1930,1430)"/>
-    <wire from="(1840,1970)" to="(1870,1970)"/>
     <wire from="(1840,200)" to="(1880,200)"/>
     <wire from="(1840,2360)" to="(1870,2360)"/>
-    <wire from="(1840,2850)" to="(1860,2850)"/>
     <wire from="(1850,1170)" to="(1850,1190)"/>
     <wire from="(1850,130)" to="(1880,130)"/>
     <wire from="(1860,1170)" to="(1860,1220)"/>
-    <wire from="(1860,2010)" to="(1870,2010)"/>
-    <wire from="(1860,2040)" to="(1880,2040)"/>
-    <wire from="(1860,2070)" to="(1890,2070)"/>
-    <wire from="(1860,2100)" to="(1900,2100)"/>
-    <wire from="(1860,2130)" to="(1910,2130)"/>
-    <wire from="(1860,2160)" to="(1920,2160)"/>
-    <wire from="(1860,2190)" to="(1930,2190)"/>
-    <wire from="(1860,2220)" to="(1940,2220)"/>
-    <wire from="(1860,2250)" to="(1950,2250)"/>
     <wire from="(1860,2400)" to="(1870,2400)"/>
     <wire from="(1860,2430)" to="(1880,2430)"/>
     <wire from="(1860,2460)" to="(1890,2460)"/>
@@ -3305,55 +2157,30 @@
     <wire from="(1860,2580)" to="(1930,2580)"/>
     <wire from="(1860,2610)" to="(1940,2610)"/>
     <wire from="(1860,2640)" to="(1950,2640)"/>
-    <wire from="(1860,2760)" to="(1870,2760)"/>
-    <wire from="(1860,2780)" to="(1860,2790)"/>
-    <wire from="(1860,2780)" to="(1870,2780)"/>
-    <wire from="(1860,2820)" to="(1870,2820)"/>
-    <wire from="(1860,2840)" to="(1860,2850)"/>
-    <wire from="(1860,2840)" to="(1870,2840)"/>
     <wire from="(1870,1170)" to="(1870,1250)"/>
-    <wire from="(1870,1990)" to="(1870,2010)"/>
     <wire from="(1870,2380)" to="(1870,2400)"/>
     <wire from="(1880,1170)" to="(1880,1280)"/>
-    <wire from="(1880,1990)" to="(1880,2040)"/>
     <wire from="(1880,2380)" to="(1880,2430)"/>
     <wire from="(1890,1170)" to="(1890,1310)"/>
-    <wire from="(1890,1990)" to="(1890,2070)"/>
     <wire from="(1890,2380)" to="(1890,2460)"/>
     <wire from="(1900,1170)" to="(1900,1340)"/>
-    <wire from="(1900,1990)" to="(1900,2100)"/>
     <wire from="(1900,2380)" to="(1900,2490)"/>
     <wire from="(1910,1170)" to="(1910,1370)"/>
-    <wire from="(1910,1990)" to="(1910,2130)"/>
     <wire from="(1910,2380)" to="(1910,2520)"/>
-    <wire from="(1910,2770)" to="(1930,2770)"/>
-    <wire from="(1910,2830)" to="(1930,2830)"/>
     <wire from="(1920,1170)" to="(1920,1400)"/>
-    <wire from="(1920,1990)" to="(1920,2160)"/>
     <wire from="(1920,2380)" to="(1920,2550)"/>
     <wire from="(1930,1110)" to="(1930,1120)"/>
     <wire from="(1930,1120)" to="(1930,1130)"/>
     <wire from="(1930,1120)" to="(1970,1120)"/>
     <wire from="(1930,1170)" to="(1930,1430)"/>
-    <wire from="(1930,1990)" to="(1930,2190)"/>
     <wire from="(1930,2380)" to="(1930,2580)"/>
-    <wire from="(1930,2770)" to="(1930,2780)"/>
-    <wire from="(1930,2780)" to="(1950,2780)"/>
-    <wire from="(1930,2820)" to="(1930,2830)"/>
-    <wire from="(1930,2820)" to="(1950,2820)"/>
-    <wire from="(1940,1990)" to="(1940,2220)"/>
     <wire from="(1940,2380)" to="(1940,2610)"/>
-    <wire from="(1950,1930)" to="(1950,1940)"/>
-    <wire from="(1950,1940)" to="(1950,1950)"/>
-    <wire from="(1950,1940)" to="(1980,1940)"/>
-    <wire from="(1950,1990)" to="(1950,2250)"/>
     <wire from="(1950,2320)" to="(1950,2330)"/>
     <wire from="(1950,2330)" to="(1950,2340)"/>
     <wire from="(1950,2330)" to="(1980,2330)"/>
     <wire from="(1950,2380)" to="(1950,2640)"/>
     <wire from="(1970,1110)" to="(1970,1120)"/>
     <wire from="(1970,1110)" to="(1980,1110)"/>
-    <wire from="(1980,1930)" to="(1980,1940)"/>
     <wire from="(1980,2320)" to="(1980,2330)"/>
     <wire from="(200,150)" to="(250,150)"/>
     <wire from="(200,170)" to="(200,240)"/>
@@ -3361,7 +2188,6 @@
     <wire from="(200,570)" to="(230,570)"/>
     <wire from="(200,70)" to="(200,130)"/>
     <wire from="(200,70)" to="(590,70)"/>
-    <wire from="(2000,2800)" to="(2030,2800)"/>
     <wire from="(2030,430)" to="(2050,430)"/>
     <wire from="(2030,450)" to="(2030,460)"/>
     <wire from="(2030,460)" to="(2060,460)"/>
@@ -3370,326 +2196,13 @@
     <wire from="(2210,230)" to="(2240,230)"/>
     <wire from="(2220,250)" to="(2220,330)"/>
     <wire from="(2220,50)" to="(2220,210)"/>
-    <wire from="(2250,2340)" to="(2280,2340)"/>
-    <wire from="(2250,2380)" to="(2260,2380)"/>
-    <wire from="(2250,2620)" to="(2360,2620)"/>
-    <wire from="(2260,2380)" to="(2260,2410)"/>
-    <wire from="(2260,2380)" to="(2280,2380)"/>
-    <wire from="(2260,2410)" to="(2260,2440)"/>
-    <wire from="(2260,2410)" to="(2290,2410)"/>
-    <wire from="(2260,2440)" to="(2260,2470)"/>
-    <wire from="(2260,2440)" to="(2300,2440)"/>
-    <wire from="(2260,2470)" to="(2260,2500)"/>
-    <wire from="(2260,2470)" to="(2310,2470)"/>
-    <wire from="(2260,2500)" to="(2260,2530)"/>
-    <wire from="(2260,2500)" to="(2320,2500)"/>
-    <wire from="(2260,2530)" to="(2260,2560)"/>
-    <wire from="(2260,2530)" to="(2330,2530)"/>
-    <wire from="(2260,2560)" to="(2260,2590)"/>
-    <wire from="(2260,2560)" to="(2340,2560)"/>
-    <wire from="(2260,2590)" to="(2350,2590)"/>
-    <wire from="(2280,1950)" to="(2310,1950)"/>
-    <wire from="(2280,2360)" to="(2280,2380)"/>
-    <wire from="(2290,2360)" to="(2290,2410)"/>
-    <wire from="(2300,1990)" to="(2310,1990)"/>
-    <wire from="(2300,2020)" to="(2320,2020)"/>
-    <wire from="(2300,2050)" to="(2330,2050)"/>
-    <wire from="(2300,2080)" to="(2340,2080)"/>
-    <wire from="(2300,2110)" to="(2350,2110)"/>
-    <wire from="(2300,2140)" to="(2360,2140)"/>
-    <wire from="(2300,2170)" to="(2370,2170)"/>
-    <wire from="(2300,2200)" to="(2380,2200)"/>
-    <wire from="(2300,2230)" to="(2390,2230)"/>
-    <wire from="(2300,2360)" to="(2300,2440)"/>
-    <wire from="(2310,1970)" to="(2310,1990)"/>
-    <wire from="(2310,2360)" to="(2310,2470)"/>
-    <wire from="(2320,1970)" to="(2320,2020)"/>
-    <wire from="(2320,2360)" to="(2320,2500)"/>
-    <wire from="(2330,1970)" to="(2330,2050)"/>
-    <wire from="(2330,2360)" to="(2330,2530)"/>
-    <wire from="(2340,1970)" to="(2340,2080)"/>
-    <wire from="(2340,2360)" to="(2340,2560)"/>
-    <wire from="(2350,1970)" to="(2350,2110)"/>
-    <wire from="(2350,2360)" to="(2350,2590)"/>
-    <wire from="(2360,1970)" to="(2360,2140)"/>
-    <wire from="(2360,2300)" to="(2360,2310)"/>
-    <wire from="(2360,2310)" to="(2360,2320)"/>
-    <wire from="(2360,2310)" to="(2400,2310)"/>
-    <wire from="(2360,2360)" to="(2360,2620)"/>
-    <wire from="(2370,1970)" to="(2370,2170)"/>
-    <wire from="(2380,1970)" to="(2380,2200)"/>
-    <wire from="(2390,1910)" to="(2390,1920)"/>
-    <wire from="(2390,1920)" to="(2390,1930)"/>
-    <wire from="(2390,1920)" to="(2420,1920)"/>
-    <wire from="(2390,1970)" to="(2390,2230)"/>
-    <wire from="(2400,2300)" to="(2400,2310)"/>
-    <wire from="(2400,2300)" to="(2410,2300)"/>
-    <wire from="(2420,1910)" to="(2420,1920)"/>
     <wire from="(260,450)" to="(320,450)"/>
-    <wire from="(2640,2470)" to="(2670,2470)"/>
-    <wire from="(2650,1560)" to="(2680,1560)"/>
-    <wire from="(2670,1600)" to="(2680,1600)"/>
-    <wire from="(2670,1630)" to="(2690,1630)"/>
-    <wire from="(2670,1660)" to="(2700,1660)"/>
-    <wire from="(2670,1690)" to="(2710,1690)"/>
-    <wire from="(2670,1720)" to="(2720,1720)"/>
-    <wire from="(2670,1750)" to="(2730,1750)"/>
-    <wire from="(2670,1780)" to="(2740,1780)"/>
-    <wire from="(2670,1810)" to="(2750,1810)"/>
-    <wire from="(2670,1840)" to="(2760,1840)"/>
-    <wire from="(2670,2390)" to="(2670,2420)"/>
-    <wire from="(2670,2390)" to="(2730,2390)"/>
-    <wire from="(2670,2420)" to="(2670,2450)"/>
-    <wire from="(2670,2420)" to="(2740,2420)"/>
-    <wire from="(2670,2450)" to="(2670,2470)"/>
-    <wire from="(2670,2450)" to="(2750,2450)"/>
-    <wire from="(2670,2470)" to="(2670,2510)"/>
-    <wire from="(2670,2510)" to="(2670,2540)"/>
-    <wire from="(2670,2510)" to="(2770,2510)"/>
-    <wire from="(2670,2540)" to="(2670,2570)"/>
-    <wire from="(2670,2540)" to="(2780,2540)"/>
-    <wire from="(2670,2570)" to="(2670,2600)"/>
-    <wire from="(2670,2570)" to="(2790,2570)"/>
-    <wire from="(2670,2600)" to="(2800,2600)"/>
-    <wire from="(2680,1580)" to="(2680,1600)"/>
-    <wire from="(2690,1580)" to="(2690,1630)"/>
-    <wire from="(2700,1580)" to="(2700,1660)"/>
-    <wire from="(2700,1960)" to="(2730,1960)"/>
-    <wire from="(2700,2350)" to="(2730,2350)"/>
-    <wire from="(2710,1580)" to="(2710,1690)"/>
-    <wire from="(2720,1580)" to="(2720,1720)"/>
-    <wire from="(2720,2000)" to="(2730,2000)"/>
-    <wire from="(2720,2030)" to="(2740,2030)"/>
-    <wire from="(2720,2060)" to="(2750,2060)"/>
-    <wire from="(2720,2090)" to="(2760,2090)"/>
-    <wire from="(2720,2120)" to="(2770,2120)"/>
-    <wire from="(2720,2150)" to="(2780,2150)"/>
-    <wire from="(2720,2180)" to="(2790,2180)"/>
-    <wire from="(2720,2210)" to="(2800,2210)"/>
-    <wire from="(2720,2240)" to="(2810,2240)"/>
-    <wire from="(2720,2480)" to="(2760,2480)"/>
-    <wire from="(2720,2630)" to="(2810,2630)"/>
-    <wire from="(2730,1580)" to="(2730,1750)"/>
-    <wire from="(2730,1980)" to="(2730,2000)"/>
-    <wire from="(2730,2370)" to="(2730,2390)"/>
-    <wire from="(2740,1580)" to="(2740,1780)"/>
-    <wire from="(2740,1980)" to="(2740,2030)"/>
-    <wire from="(2740,2370)" to="(2740,2420)"/>
-    <wire from="(2750,1580)" to="(2750,1810)"/>
-    <wire from="(2750,1980)" to="(2750,2060)"/>
-    <wire from="(2750,2370)" to="(2750,2450)"/>
-    <wire from="(2760,1520)" to="(2760,1530)"/>
-    <wire from="(2760,1530)" to="(2760,1540)"/>
-    <wire from="(2760,1530)" to="(2800,1530)"/>
-    <wire from="(2760,1580)" to="(2760,1840)"/>
-    <wire from="(2760,1980)" to="(2760,2090)"/>
-    <wire from="(2760,2370)" to="(2760,2480)"/>
-    <wire from="(2770,1980)" to="(2770,2120)"/>
-    <wire from="(2770,2370)" to="(2770,2510)"/>
-    <wire from="(2780,1980)" to="(2780,2150)"/>
-    <wire from="(2780,2370)" to="(2780,2540)"/>
-    <wire from="(2790,1980)" to="(2790,2180)"/>
-    <wire from="(2790,2370)" to="(2790,2570)"/>
-    <wire from="(2800,1520)" to="(2800,1530)"/>
-    <wire from="(2800,1980)" to="(2800,2210)"/>
-    <wire from="(2800,2370)" to="(2800,2600)"/>
-    <wire from="(2810,1920)" to="(2810,1930)"/>
-    <wire from="(2810,1930)" to="(2810,1940)"/>
-    <wire from="(2810,1930)" to="(2850,1930)"/>
-    <wire from="(2810,1980)" to="(2810,2240)"/>
-    <wire from="(2810,2310)" to="(2810,2320)"/>
-    <wire from="(2810,2320)" to="(2810,2330)"/>
-    <wire from="(2810,2320)" to="(2860,2320)"/>
-    <wire from="(2810,2370)" to="(2810,2630)"/>
-    <wire from="(2850,1920)" to="(2850,1930)"/>
-    <wire from="(2860,2300)" to="(2860,2320)"/>
-    <wire from="(2860,2300)" to="(2870,2300)"/>
     <wire from="(290,530)" to="(320,530)"/>
-    <wire from="(3020,1560)" to="(3050,1560)"/>
-    <wire from="(3030,1600)" to="(3050,1600)"/>
-    <wire from="(3030,1630)" to="(3060,1630)"/>
-    <wire from="(3030,1660)" to="(3070,1660)"/>
-    <wire from="(3030,1690)" to="(3080,1690)"/>
-    <wire from="(3030,1720)" to="(3090,1720)"/>
-    <wire from="(3030,1750)" to="(3100,1750)"/>
-    <wire from="(3030,1780)" to="(3110,1780)"/>
-    <wire from="(3030,1810)" to="(3120,1810)"/>
-    <wire from="(3030,1840)" to="(3130,1840)"/>
-    <wire from="(3050,1580)" to="(3050,1600)"/>
-    <wire from="(3050,2100)" to="(3050,2160)"/>
-    <wire from="(3050,2100)" to="(3130,2100)"/>
-    <wire from="(3050,2160)" to="(3130,2160)"/>
-    <wire from="(3060,1580)" to="(3060,1630)"/>
-    <wire from="(3070,1580)" to="(3070,1660)"/>
-    <wire from="(3080,1580)" to="(3080,1690)"/>
-    <wire from="(3090,1520)" to="(3090,1530)"/>
-    <wire from="(3090,1530)" to="(3130,1530)"/>
-    <wire from="(3090,1580)" to="(3090,1720)"/>
-    <wire from="(3100,1580)" to="(3100,1750)"/>
-    <wire from="(3100,1980)" to="(3130,1980)"/>
-    <wire from="(3110,1580)" to="(3110,1780)"/>
-    <wire from="(3110,2330)" to="(3140,2330)"/>
-    <wire from="(3120,1580)" to="(3120,1810)"/>
-    <wire from="(3130,1530)" to="(3130,1540)"/>
-    <wire from="(3130,1530)" to="(3160,1530)"/>
-    <wire from="(3130,1580)" to="(3130,1840)"/>
-    <wire from="(3130,1980)" to="(3130,2010)"/>
-    <wire from="(3130,1980)" to="(3170,1980)"/>
-    <wire from="(3130,2010)" to="(3130,2040)"/>
-    <wire from="(3130,2010)" to="(3180,2010)"/>
-    <wire from="(3130,2040)" to="(3130,2070)"/>
-    <wire from="(3130,2040)" to="(3190,2040)"/>
-    <wire from="(3130,2070)" to="(3130,2100)"/>
-    <wire from="(3130,2070)" to="(3200,2070)"/>
-    <wire from="(3130,2100)" to="(3210,2100)"/>
-    <wire from="(3130,2160)" to="(3130,2190)"/>
-    <wire from="(3130,2160)" to="(3230,2160)"/>
-    <wire from="(3130,2190)" to="(3130,2220)"/>
-    <wire from="(3130,2190)" to="(3240,2190)"/>
-    <wire from="(3130,2220)" to="(3250,2220)"/>
-    <wire from="(3130,2370)" to="(3140,2370)"/>
-    <wire from="(3130,2400)" to="(3150,2400)"/>
-    <wire from="(3130,2430)" to="(3160,2430)"/>
-    <wire from="(3130,2460)" to="(3170,2460)"/>
-    <wire from="(3130,2490)" to="(3180,2490)"/>
-    <wire from="(3130,2520)" to="(3190,2520)"/>
-    <wire from="(3130,2550)" to="(3200,2550)"/>
-    <wire from="(3130,2580)" to="(3210,2580)"/>
-    <wire from="(3130,2610)" to="(3220,2610)"/>
-    <wire from="(3140,1940)" to="(3170,1940)"/>
-    <wire from="(3140,2130)" to="(3220,2130)"/>
-    <wire from="(3140,2350)" to="(3140,2370)"/>
-    <wire from="(3150,2350)" to="(3150,2400)"/>
-    <wire from="(3160,1520)" to="(3160,1530)"/>
-    <wire from="(3160,1530)" to="(3180,1530)"/>
-    <wire from="(3160,2350)" to="(3160,2430)"/>
-    <wire from="(3170,1960)" to="(3170,1980)"/>
-    <wire from="(3170,2350)" to="(3170,2460)"/>
-    <wire from="(3180,1960)" to="(3180,2010)"/>
-    <wire from="(3180,2350)" to="(3180,2490)"/>
-    <wire from="(3190,1960)" to="(3190,2040)"/>
-    <wire from="(3190,2350)" to="(3190,2520)"/>
     <wire from="(320,430)" to="(320,450)"/>
     <wire from="(320,450)" to="(320,530)"/>
     <wire from="(320,530)" to="(340,530)"/>
-    <wire from="(3200,1960)" to="(3200,2070)"/>
-    <wire from="(3200,2350)" to="(3200,2550)"/>
-    <wire from="(3210,1960)" to="(3210,2100)"/>
-    <wire from="(3210,2350)" to="(3210,2580)"/>
-    <wire from="(3220,1960)" to="(3220,2130)"/>
-    <wire from="(3220,2290)" to="(3220,2300)"/>
-    <wire from="(3220,2300)" to="(3220,2310)"/>
-    <wire from="(3220,2300)" to="(3260,2300)"/>
-    <wire from="(3220,2350)" to="(3220,2610)"/>
-    <wire from="(3230,1960)" to="(3230,2160)"/>
-    <wire from="(3240,1960)" to="(3240,2190)"/>
-    <wire from="(3250,1900)" to="(3250,1910)"/>
-    <wire from="(3250,1910)" to="(3250,1920)"/>
-    <wire from="(3250,1910)" to="(3290,1910)"/>
-    <wire from="(3250,1960)" to="(3250,2220)"/>
-    <wire from="(3440,1930)" to="(3490,1930)"/>
-    <wire from="(3440,1970)" to="(3490,1970)"/>
-    <wire from="(3440,2030)" to="(3510,2030)"/>
-    <wire from="(3440,2090)" to="(3460,2090)"/>
-    <wire from="(3440,2140)" to="(3450,2140)"/>
-    <wire from="(3470,1520)" to="(3500,1520)"/>
-    <wire from="(3470,1560)" to="(3490,1560)"/>
-    <wire from="(3470,1620)" to="(3520,1620)"/>
-    <wire from="(3470,1650)" to="(3530,1650)"/>
-    <wire from="(3470,1680)" to="(3540,1680)"/>
-    <wire from="(3470,1710)" to="(3550,1710)"/>
-    <wire from="(3470,1740)" to="(3490,1740)"/>
-    <wire from="(3470,1800)" to="(3580,1800)"/>
-    <wire from="(3470,2130)" to="(3490,2130)"/>
-    <wire from="(3470,2140)" to="(3490,2140)"/>
-    <wire from="(3490,1560)" to="(3490,1590)"/>
-    <wire from="(3490,1560)" to="(3500,1560)"/>
-    <wire from="(3490,1590)" to="(3510,1590)"/>
-    <wire from="(3490,1740)" to="(3490,1770)"/>
-    <wire from="(3490,1740)" to="(3560,1740)"/>
-    <wire from="(3490,1770)" to="(3570,1770)"/>
-    <wire from="(3490,1950)" to="(3490,1970)"/>
-    <wire from="(3500,1540)" to="(3500,1560)"/>
-    <wire from="(3500,1950)" to="(3500,2000)"/>
-    <wire from="(3500,2090)" to="(3530,2090)"/>
-    <wire from="(3510,1540)" to="(3510,1590)"/>
-    <wire from="(3510,1890)" to="(3510,1900)"/>
-    <wire from="(3510,1900)" to="(3510,1910)"/>
-    <wire from="(3510,1900)" to="(3530,1900)"/>
-    <wire from="(3510,1950)" to="(3510,2030)"/>
-    <wire from="(3510,2140)" to="(3520,2140)"/>
-    <wire from="(3520,1540)" to="(3520,1620)"/>
-    <wire from="(3530,1540)" to="(3530,1650)"/>
-    <wire from="(3540,1540)" to="(3540,1680)"/>
-    <wire from="(3550,1540)" to="(3550,1710)"/>
-    <wire from="(3560,1540)" to="(3560,1740)"/>
-    <wire from="(3570,1540)" to="(3570,1770)"/>
-    <wire from="(3580,1480)" to="(3580,1490)"/>
-    <wire from="(3580,1490)" to="(3580,1500)"/>
-    <wire from="(3580,1490)" to="(3620,1490)"/>
-    <wire from="(3580,1540)" to="(3580,1800)"/>
-    <wire from="(3730,2070)" to="(3730,2130)"/>
-    <wire from="(3730,2070)" to="(3810,2070)"/>
-    <wire from="(3730,2130)" to="(3810,2130)"/>
-    <wire from="(3780,1950)" to="(3850,1950)"/>
-    <wire from="(3780,1980)" to="(3860,1980)"/>
-    <wire from="(3780,2010)" to="(3810,2010)"/>
     <wire from="(380,240)" to="(380,260)"/>
     <wire from="(380,260)" to="(590,260)"/>
-    <wire from="(3810,2010)" to="(3810,2040)"/>
-    <wire from="(3810,2010)" to="(3870,2010)"/>
-    <wire from="(3810,2040)" to="(3810,2070)"/>
-    <wire from="(3810,2040)" to="(3880,2040)"/>
-    <wire from="(3810,2070)" to="(3890,2070)"/>
-    <wire from="(3810,2130)" to="(3810,2160)"/>
-    <wire from="(3810,2130)" to="(3910,2130)"/>
-    <wire from="(3810,2160)" to="(3810,2190)"/>
-    <wire from="(3810,2160)" to="(3920,2160)"/>
-    <wire from="(3810,2190)" to="(3930,2190)"/>
-    <wire from="(3820,1910)" to="(3850,1910)"/>
-    <wire from="(3830,2100)" to="(3900,2100)"/>
-    <wire from="(3850,1930)" to="(3850,1950)"/>
-    <wire from="(3860,1930)" to="(3860,1980)"/>
-    <wire from="(3870,1930)" to="(3870,2010)"/>
-    <wire from="(3880,1930)" to="(3880,2040)"/>
-    <wire from="(3890,1930)" to="(3890,2070)"/>
-    <wire from="(3900,1930)" to="(3900,2100)"/>
-    <wire from="(3910,1930)" to="(3910,2130)"/>
-    <wire from="(3920,1930)" to="(3920,2160)"/>
-    <wire from="(3930,1870)" to="(3930,1880)"/>
-    <wire from="(3930,1880)" to="(3930,1890)"/>
-    <wire from="(3930,1880)" to="(3970,1880)"/>
-    <wire from="(3930,1930)" to="(3930,2190)"/>
-    <wire from="(4140,1890)" to="(4190,1890)"/>
-    <wire from="(4140,1930)" to="(4190,1930)"/>
-    <wire from="(4140,1960)" to="(4200,1960)"/>
-    <wire from="(4140,1990)" to="(4210,1990)"/>
-    <wire from="(4150,2080)" to="(4200,2080)"/>
-    <wire from="(4150,2120)" to="(4200,2120)"/>
-    <wire from="(4150,2150)" to="(4210,2150)"/>
-    <wire from="(4150,2180)" to="(4220,2180)"/>
-    <wire from="(4190,1910)" to="(4190,1930)"/>
-    <wire from="(4200,1910)" to="(4200,1960)"/>
-    <wire from="(4200,2100)" to="(4200,2120)"/>
-    <wire from="(4210,1850)" to="(4210,1860)"/>
-    <wire from="(4210,1860)" to="(4210,1870)"/>
-    <wire from="(4210,1860)" to="(4230,1860)"/>
-    <wire from="(4210,1910)" to="(4210,1990)"/>
-    <wire from="(4210,2100)" to="(4210,2150)"/>
-    <wire from="(4220,2040)" to="(4220,2050)"/>
-    <wire from="(4220,2050)" to="(4220,2060)"/>
-    <wire from="(4220,2050)" to="(4240,2050)"/>
-    <wire from="(4220,2100)" to="(4220,2180)"/>
-    <wire from="(4490,1900)" to="(4540,1900)"/>
-    <wire from="(4490,1940)" to="(4540,1940)"/>
-    <wire from="(4490,1970)" to="(4550,1970)"/>
-    <wire from="(4490,2000)" to="(4560,2000)"/>
-    <wire from="(4540,1920)" to="(4540,1940)"/>
-    <wire from="(4550,1920)" to="(4550,1970)"/>
-    <wire from="(4560,1860)" to="(4560,1870)"/>
-    <wire from="(4560,1870)" to="(4560,1880)"/>
-    <wire from="(4560,1870)" to="(4580,1870)"/>
-    <wire from="(4560,1920)" to="(4560,2000)"/>
     <wire from="(520,200)" to="(590,200)"/>
     <wire from="(540,430)" to="(600,430)"/>
     <wire from="(540,470)" to="(550,470)"/>
@@ -3828,6 +2341,7 @@
     <wire from="(760,210)" to="(770,210)"/>
     <wire from="(760,90)" to="(1560,90)"/>
     <wire from="(760,90)" to="(760,210)"/>
+    <wire from="(760,910)" to="(760,930)"/>
     <wire from="(770,1340)" to="(770,1370)"/>
     <wire from="(770,1340)" to="(790,1340)"/>
     <wire from="(770,1370)" to="(790,1370)"/>
@@ -3844,8 +2358,10 @@
     <wire from="(840,1200)" to="(850,1200)"/>
     <wire from="(840,1220)" to="(840,1230)"/>
     <wire from="(840,1230)" to="(850,1230)"/>
+    <wire from="(840,910)" to="(840,930)"/>
     <wire from="(870,190)" to="(870,220)"/>
     <wire from="(890,210)" to="(940,210)"/>
+    <wire from="(890,910)" to="(890,930)"/>
     <wire from="(910,430)" to="(920,430)"/>
     <wire from="(910,450)" to="(920,450)"/>
     <wire from="(910,470)" to="(920,470)"/>
@@ -3861,6 +2377,7 @@
     <wire from="(920,760)" to="(940,760)"/>
     <wire from="(940,610)" to="(940,620)"/>
     <wire from="(940,620)" to="(950,620)"/>
+    <wire from="(940,880)" to="(940,930)"/>
     <wire from="(950,540)" to="(950,590)"/>
     <wire from="(950,540)" to="(970,540)"/>
     <wire from="(950,590)" to="(960,590)"/>
@@ -3872,5 +2389,6 @@
     <wire from="(990,1450)" to="(1150,1450)"/>
     <wire from="(990,1570)" to="(1190,1570)"/>
     <wire from="(990,1600)" to="(1200,1600)"/>
+    <wire from="(990,910)" to="(990,930)"/>
   </circuit>
 </project>
