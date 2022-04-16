@@ -537,12 +537,6 @@
       <a name="value" val="0x8"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(1710,490)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="readReg1"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(1740,610)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MemAddress"/>
@@ -570,12 +564,6 @@
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1800,430)" name="Tunnel">
-      <a name="facing" val="east"/>
-      <a name="label" val="Instruction"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(1800,640)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Instruction"/>
       <a name="labelfont" val="SansSerif bold 10"/>
@@ -754,16 +742,6 @@
       <a name="label" val="MemWriteMask"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(2050,590)" name="Tunnel">
-      <a name="label" val="RegWriteData"/>
-      <a name="labelfont" val="SansSerif bold 12"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(2060,460)" name="Tunnel">
-      <a name="label" val="ProgramCounter"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(2210,230)" name="Pin">
       <a name="label" val="MemReadData"/>
