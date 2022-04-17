@@ -1652,64 +1652,64 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="1 = mulh --&gt;9"/>
     </comp>
-    <comp lib="5" loc="(1646,3365)" name="Text">
+    <comp lib="5" loc="(1724,3821)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="sll = 1"/>
     </comp>
-    <comp lib="5" loc="(1646,3383)" name="Text">
+    <comp lib="5" loc="(1724,3839)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="slt = 2"/>
     </comp>
-    <comp lib="5" loc="(1647,3403)" name="Text">
+    <comp lib="5" loc="(1725,3859)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="xor = 4"/>
     </comp>
-    <comp lib="5" loc="(1647,3423)" name="Text">
+    <comp lib="5" loc="(1725,3879)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="srl = 5"/>
     </comp>
-    <comp lib="5" loc="(1650,3348)" name="Text">
+    <comp lib="5" loc="(1728,3804)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="add = 0"/>
     </comp>
-    <comp lib="5" loc="(1650,3443)" name="Text">
+    <comp lib="5" loc="(1728,3899)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="or = 6"/>
     </comp>
-    <comp lib="5" loc="(1652,3330)" name="Text">
+    <comp lib="5" loc="(1730,3786)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="ALU Key:"/>
     </comp>
-    <comp lib="5" loc="(1653,3463)" name="Text">
+    <comp lib="5" loc="(1731,3919)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="and = 7"/>
     </comp>
-    <comp lib="5" loc="(1656,3563)" name="Text">
+    <comp lib="5" loc="(1734,4019)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="sra = 13"/>
     </comp>
-    <comp lib="5" loc="(1657,3544)" name="Text">
+    <comp lib="5" loc="(1735,4000)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="sub = 12"/>
     </comp>
-    <comp lib="5" loc="(1659,3584)" name="Text">
+    <comp lib="5" loc="(1737,4040)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="bsel = 15"/>
     </comp>
-    <comp lib="5" loc="(1662,3524)" name="Text">
+    <comp lib="5" loc="(174,93)" name="Text">
+      <a name="text" val="INPUTS to your circuit"/>
+    </comp>
+    <comp lib="5" loc="(1740,3980)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="mulhu = 11"/>
     </comp>
-    <comp lib="5" loc="(1669,3482)" name="Text">
+    <comp lib="5" loc="(1747,3938)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="mul (sign) = 8"/>
     </comp>
-    <comp lib="5" loc="(1672,3503)" name="Text">
+    <comp lib="5" loc="(1750,3959)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="mulh (sign) = 9"/>
-    </comp>
-    <comp lib="5" loc="(174,93)" name="Text">
-      <a name="text" val="INPUTS to your circuit"/>
     </comp>
     <comp lib="5" loc="(1851,1527)" name="Text">
       <a name="font" val="SansSerif plain 12"/>

@@ -221,3 +221,6 @@ TODO:
 
 Seem to have accidentally bypassed:
 > Execute: What two data values (A and B) should an B-type instruction input to the ALU?
+
+Note:
+> need to check ALU is implemented for current format before running tests
