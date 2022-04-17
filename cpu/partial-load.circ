@@ -549,7 +549,7 @@
     <comp lib="5" loc="(152,104)" name="Text">
       <a name="text" val="INPUTS to your circuit"/>
     </comp>
-    <comp lib="5" loc="(327,432)" name="Text">
+    <comp lib="5" loc="(327,433)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="1) set up logic to determine whether lw (32), lh (16), or lb (8) --&gt; sign extend to 32 before returning "/>
     </comp>
