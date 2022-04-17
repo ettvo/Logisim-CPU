@@ -186,7 +186,7 @@
       <a name="bit17" val="2"/>
       <a name="bit18" val="2"/>
       <a name="bit19" val="2"/>
-      <a name="bit2" val="0"/>
+      <a name="bit2" val="1"/>
       <a name="bit20" val="2"/>
       <a name="bit21" val="2"/>
       <a name="bit22" val="2"/>
@@ -197,13 +197,13 @@
       <a name="bit27" val="none"/>
       <a name="bit28" val="none"/>
       <a name="bit29" val="none"/>
-      <a name="bit3" val="0"/>
+      <a name="bit3" val="1"/>
       <a name="bit30" val="3"/>
       <a name="bit31" val="3"/>
-      <a name="bit4" val="0"/>
-      <a name="bit5" val="0"/>
-      <a name="bit6" val="0"/>
-      <a name="bit7" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
       <a name="bit8" val="1"/>
       <a name="bit9" val="1"/>
       <a name="fanout" val="4"/>
@@ -285,7 +285,7 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="2"/>
     </comp>
-    <comp lib="0" loc="(160,720)" name="Tunnel">
+    <comp lib="0" loc="(160,690)" name="Tunnel">
       <a name="label" val="bottom_MemAddress"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="2"/>
@@ -757,6 +757,10 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="pass 32 bit address to DMEM to get bytes starting at that address"/>
     </comp>
+    <comp lib="5" loc="(222,720)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="bits 1-0 or 31-30"/>
+    </comp>
     <comp lib="5" loc="(250,508)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="dmem able to access 4 bytes at a time; start at address that is a multiple of 4"/>
@@ -843,7 +847,8 @@
     <wire from="(130,1610)" to="(150,1610)"/>
     <wire from="(130,1620)" to="(150,1620)"/>
     <wire from="(130,660)" to="(160,660)"/>
-    <wire from="(130,720)" to="(160,720)"/>
+    <wire from="(130,690)" to="(160,690)"/>
+    <wire from="(130,720)" to="(150,720)"/>
     <wire from="(140,1090)" to="(140,1240)"/>
     <wire from="(150,1480)" to="(190,1480)"/>
     <wire from="(150,1570)" to="(170,1570)"/>

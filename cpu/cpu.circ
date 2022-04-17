@@ -529,6 +529,12 @@
       <a name="value" val="0x8"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(1710,490)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="readReg1"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(1740,610)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MemAddress"/>
