@@ -767,10 +767,6 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(340,280)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="PCSel"/>
-    </comp>
     <comp lib="0" loc="(350,210)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="PCSel"/>
@@ -917,10 +913,6 @@
       <a name="facing" val="north"/>
       <a name="label" val="BrUn"/>
     </comp>
-    <comp lib="0" loc="(610,280)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="ASel"/>
-    </comp>
     <comp lib="0" loc="(620,210)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="ASel"/>
@@ -930,10 +922,6 @@
     <comp lib="0" loc="(620,230)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="ASel"/>
-    </comp>
-    <comp lib="0" loc="(660,280)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="BSel"/>
     </comp>
     <comp lib="0" loc="(660,620)" name="Splitter">
       <a name="appear" val="center"/>
@@ -1033,10 +1021,6 @@
       <a name="label" val="ALUSel"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(750,1640)" name="Constant">
-      <a name="value" val="0xf"/>
-      <a name="width" val="4"/>
-    </comp>
     <comp lib="0" loc="(750,980)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="format"/>
@@ -1048,6 +1032,10 @@
       <a name="label" val="funct3_edit"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(800,1630)" name="Constant"/>
+    <comp lib="0" loc="(800,1810)" name="Constant">
+      <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(800,3790)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1384,6 +1372,10 @@
     <comp lib="5" loc="(1006,2160)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="I-Format --&gt; Load = 0"/>
+    </comp>
+    <comp lib="5" loc="(1008,1900)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="0 for branch / jump PC imm"/>
     </comp>
     <comp lib="5" loc="(1017,2701)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2020,6 +2012,14 @@
       <a name="halign" val="left"/>
       <a name="text" val="Format Key:"/>
     </comp>
+    <comp lib="5" loc="(955,1882)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="PCSel Key:"/>
+    </comp>
+    <comp lib="5" loc="(961,1922)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="1 for PC + 4"/>
+    </comp>
     <comp lib="5" loc="(961,2388)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="ASel Key:"/>
@@ -2632,6 +2632,8 @@
     <wire from="(790,3340)" to="(810,3340)"/>
     <wire from="(800,1040)" to="(800,1270)"/>
     <wire from="(800,1270)" to="(930,1270)"/>
+    <wire from="(800,1630)" to="(810,1630)"/>
+    <wire from="(800,1810)" to="(810,1810)"/>
     <wire from="(800,370)" to="(800,820)"/>
     <wire from="(800,3790)" to="(820,3790)"/>
     <wire from="(800,3830)" to="(820,3830)"/>
@@ -2640,13 +2642,20 @@
     <wire from="(810,1040)" to="(810,1250)"/>
     <wire from="(810,1250)" to="(930,1250)"/>
     <wire from="(810,1580)" to="(830,1580)"/>
+    <wire from="(810,1630)" to="(810,1660)"/>
     <wire from="(810,1630)" to="(830,1630)"/>
+    <wire from="(810,1660)" to="(810,1690)"/>
     <wire from="(810,1660)" to="(840,1660)"/>
+    <wire from="(810,1690)" to="(810,1720)"/>
     <wire from="(810,1690)" to="(850,1690)"/>
+    <wire from="(810,1720)" to="(810,1750)"/>
     <wire from="(810,1720)" to="(860,1720)"/>
+    <wire from="(810,1750)" to="(810,1780)"/>
     <wire from="(810,1750)" to="(870,1750)"/>
     <wire from="(810,1780)" to="(880,1780)"/>
+    <wire from="(810,1810)" to="(810,1840)"/>
     <wire from="(810,1810)" to="(890,1810)"/>
+    <wire from="(810,1840)" to="(810,1870)"/>
     <wire from="(810,1840)" to="(900,1840)"/>
     <wire from="(810,1870)" to="(910,1870)"/>
     <wire from="(810,210)" to="(810,230)"/>
