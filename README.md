@@ -218,3 +218,6 @@ TODO:
 * immediate format currently sign extends even for unsigned operations (FIX)
 * make it pass imm_gen tests (fix B, J, S, U formats)
 * Start Task 7.2 --> make imm_gen put out correct immediate value for B format instructions
+
+Seem to have accidentally bypassed:
+> Execute: What two data values (A and B) should an B-type instruction input to the ALU?
