@@ -228,3 +228,7 @@ Note:
 Currently:
 * Pause on 7.3:
 > > bash test.sh test_integration_branch
+
+still need:
+> bash test.sh test_integration_mem
+> my own test files (12)
