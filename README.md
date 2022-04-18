@@ -232,3 +232,7 @@ Currently:
 still need:
 > bash test.sh test_integration_mem
 > my own test files (12)
+
+Note:
+> jal, jalr are classified as J type for whatever reason
+>> jal is I-type, which would mean different processing of instruction

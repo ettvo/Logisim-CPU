@@ -1108,6 +1108,14 @@
     <comp lib="0" loc="(830,2680)" name="Constant">
       <a name="width" val="2"/>
     </comp>
+    <comp lib="0" loc="(830,2860)" name="Constant">
+      <a name="value" val="0x2"/>
+      <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(830,2890)" name="Constant">
+      <a name="value" val="0x2"/>
+      <a name="width" val="2"/>
+    </comp>
     <comp lib="0" loc="(830,3690)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit1" val="none"/>
@@ -1969,6 +1977,10 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Template"/>
     </comp>
+    <comp lib="5" loc="(893,3041)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="focus on jal, jalr, auipc; lui okay"/>
+    </comp>
     <comp lib="5" loc="(917,3784)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Key:"/>
@@ -2608,6 +2620,9 @@
     <wire from="(800,1270)" to="(930,1270)"/>
     <wire from="(800,1630)" to="(810,1630)"/>
     <wire from="(800,1810)" to="(810,1810)"/>
+    <wire from="(800,2830)" to="(800,2920)"/>
+    <wire from="(800,2830)" to="(830,2830)"/>
+    <wire from="(800,2920)" to="(930,2920)"/>
     <wire from="(800,370)" to="(800,820)"/>
     <wire from="(800,3790)" to="(820,3790)"/>
     <wire from="(800,3830)" to="(820,3830)"/>
@@ -2679,13 +2694,9 @@
     <wire from="(830,2770)" to="(880,2770)"/>
     <wire from="(830,2800)" to="(830,2830)"/>
     <wire from="(830,2800)" to="(890,2800)"/>
-    <wire from="(830,2830)" to="(830,2860)"/>
     <wire from="(830,2830)" to="(900,2830)"/>
-    <wire from="(830,2860)" to="(830,2890)"/>
     <wire from="(830,2860)" to="(910,2860)"/>
-    <wire from="(830,2890)" to="(830,2920)"/>
     <wire from="(830,2890)" to="(920,2890)"/>
-    <wire from="(830,2920)" to="(930,2920)"/>
     <wire from="(830,3310)" to="(830,3340)"/>
     <wire from="(830,3810)" to="(830,3850)"/>
     <wire from="(840,1040)" to="(840,1190)"/>
