@@ -227,11 +227,10 @@ Note:
 
 Currently:
 * Pause on 7.3:
->> bash test.sh test_integration_branch
->> bash test.sh test_integration_all_regs
+>> bash test.sh test_immediates
 >> bash test.sh test_integration_jump
 >> bash test.sh test_integration_mem
->> bash test.sh test_integration_all_regs
+* most likely SRA one of biggest contributors to things not working
 
 introduce more programs for integration testing
 
@@ -240,5 +239,5 @@ still need:
 > my own test files (12)
 
 Note:
-> jal, jalr are classified as J type for whatever reason
+> jal is I-type --> need to go into ALU to fix
 >> jal is I-type, which would mean different processing of instruction

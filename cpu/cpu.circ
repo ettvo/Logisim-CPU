@@ -5,7 +5,8 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -298,6 +299,10 @@
       <a name="facing" val="south"/>
       <a name="label" val="ASel"/>
       <a name="labelfont" val="SansSerif bold 10"/>
+    </comp>
+    <comp lib="0" loc="(1170,540)" name="Constant">
+      <a name="value" val="0xabcde000"/>
+      <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1170,780)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -959,10 +964,6 @@
     <comp lib="0" loc="(550,450)" name="Probe">
       <a name="radix" val="16"/>
     </comp>
-    <comp lib="0" loc="(590,200)" name="Tunnel">
-      <a name="label" val="Instruction"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(590,450)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="rs2"/>
@@ -1029,6 +1030,10 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(610,290)" name="Constant">
+      <a name="value" val="0x41f45293"/>
+      <a name="width" val="32"/>
+    </comp>
     <comp lib="0" loc="(620,400)" name="Probe">
       <a name="radix" val="16"/>
     </comp>
@@ -1036,6 +1041,10 @@
       <a name="facing" val="east"/>
       <a name="label" val="Instruction"/>
       <a name="labelfont" val="SansSerif bold 10"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(630,200)" name="Tunnel">
+      <a name="label" val="Instruction"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(630,430)" name="Tunnel">
@@ -1643,7 +1652,6 @@
     <comp lib="1" loc="(2800,2020)" name="OR Gate"/>
     <comp lib="1" loc="(2900,2090)" name="AND Gate"/>
     <comp lib="1" loc="(2910,2130)" name="NOT Gate"/>
-    <comp lib="1" loc="(2920,2140)" name="NOT Gate"/>
     <comp lib="1" loc="(2950,2290)" name="OR Gate"/>
     <comp lib="1" loc="(2970,2110)" name="AND Gate"/>
     <comp lib="1" loc="(3050,2130)" name="OR Gate"/>
@@ -1753,7 +1761,7 @@
     </comp>
     <comp lib="5" loc="(1009,2069)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="J-Formal jal = 6"/>
+      <a name="text" val="I-Formal jal = 6"/>
     </comp>
     <comp lib="5" loc="(1011,2088)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -1769,7 +1777,7 @@
     </comp>
     <comp lib="5" loc="(1025,1953)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Fomat --&gt; Load = 0"/>
+      <a name="text" val="I-Format --&gt; Load = 0"/>
     </comp>
     <comp lib="5" loc="(1053,1970)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2557,7 +2565,7 @@
     <wire from="(410,530)" to="(430,530)"/>
     <wire from="(430,530)" to="(430,590)"/>
     <wire from="(430,590)" to="(460,590)"/>
-    <wire from="(520,200)" to="(590,200)"/>
+    <wire from="(520,200)" to="(630,200)"/>
     <wire from="(540,430)" to="(600,430)"/>
     <wire from="(540,470)" to="(550,470)"/>
     <wire from="(550,450)" to="(550,470)"/>
