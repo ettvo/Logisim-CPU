@@ -541,10 +541,12 @@
     <comp lib="0" loc="(630,910)" name="Bit Extender">
       <a name="in_width" val="32"/>
       <a name="out_width" val="64"/>
+      <a name="type" val="zero"/>
     </comp>
     <comp lib="0" loc="(630,960)" name="Bit Extender">
       <a name="in_width" val="32"/>
       <a name="out_width" val="64"/>
+      <a name="type" val="zero"/>
     </comp>
     <comp lib="0" loc="(640,320)" name="Bit Extender">
       <a name="in_width" val="32"/>
@@ -702,6 +704,7 @@
     <comp lib="0" loc="(840,940)" name="Bit Extender">
       <a name="in_width" val="64"/>
       <a name="out_width" val="32"/>
+      <a name="type" val="zero"/>
     </comp>
     <comp lib="0" loc="(850,1940)" name="Tunnel">
       <a name="label" val="A"/>
@@ -799,7 +802,6 @@
       <a name="width" val="32"/>
     </comp>
     <comp lib="3" loc="(700,930)" name="Multiplier">
-      <a name="mode" val="twosComplement"/>
       <a name="width" val="64"/>
     </comp>
     <comp lib="3" loc="(720,290)" name="Shifter">
