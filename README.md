@@ -4,6 +4,30 @@ Look ma, I made a CPU! Here's what I did:
 
 -
 
+README Update:
+
+It was awful
+The project was one of the most straightforward one's I've done but it was one of the worst experiences because it's so hard to find a bug in Logism. 
+I remember spending at least 12 hours on bugs like accidentally drawing a line to > instead of = of a comparator, putting in the wrong number, misunderstanding a bit of the spec, etc.
+The worst one was the integration-mem segment by far
+It was cool though
+It was kinda rough looking for a bug and finding out that it was in a file that had passed all its unit tests
+(characters: 524)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Following are comments / pseudo-code on how to do the tasks:
 
 Part A: addi
