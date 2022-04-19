@@ -137,7 +137,7 @@ I-Type Format (immediate)
     opcode [6-0]
 ex: addi t0, t1, 3
 note: includes load instructions
---> immediate logical arithmetic opcode: 0010011 --> 00100 = 4
+--> immediate logical arithmetic opcode: 0x13 = 0010011 --> 00100 = 4
 --> load opcode: 0000011 --> 00000 = 0
     
 S-Type Format (store)
@@ -230,9 +230,13 @@ Currently:
 >> bash test.sh test_integration_jump
 >> bash test.sh test_integration_mem
 * most likely SRA one of biggest contributors to things not working
+* code currently doesn't do correct functions for negative shifts
+* operation doesn't properly work for Store
 
 >> changed wiring for jal, hjalr 
 >> need to change jal, jalr wiring; one of them is I-format and accidentally miswired them throughout because jalr is op25, jal op27, not other way around
+>> currently no tests available for auipc
+
 
 introduce more programs for integration testing
 

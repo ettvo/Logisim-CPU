@@ -5,7 +5,8 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -573,6 +574,7 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1790,1820)" name="Constant">
+      <a name="value" val="0x0"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1790,1850)" name="Constant">
@@ -1065,6 +1067,9 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(810,1720)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(810,210)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="MemWEn"/>
@@ -1214,7 +1219,7 @@
       <a name="width" val="2"/>
     </comp>
     <comp lib="0" loc="(910,940)" name="Constant">
-      <a name="value" val="0x6f"/>
+      <a name="value" val="0x23"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(920,2050)" name="Tunnel">
@@ -1553,7 +1558,7 @@
     </comp>
     <comp lib="5" loc="(1123,1324)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="I-Format --&gt; immediate log/arith = 4; load = 0"/>
+      <a name="text" val="I-Format --&gt; immediate log/arith = 4; load = 1"/>
     </comp>
     <comp lib="5" loc="(1125,651)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -1906,6 +1911,10 @@
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Template"/>
     </comp>
+    <comp lib="5" loc="(395,908)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="0b101 --&gt; 0b1"/>
+    </comp>
     <comp lib="5" loc="(406,3828)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="halign" val="left"/>
@@ -2125,6 +2134,10 @@
     <comp lib="5" loc="(893,3041)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="focus on jal, jalr, auipc; lui okay"/>
+    </comp>
+    <comp lib="5" loc="(910,3005)" name="Text">
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="text" val="Send 3 --&gt; imm"/>
     </comp>
     <comp lib="5" loc="(917,3784)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
@@ -2769,6 +2782,9 @@
     <wire from="(770,1330)" to="(930,1330)"/>
     <wire from="(780,1040)" to="(780,1310)"/>
     <wire from="(780,1310)" to="(930,1310)"/>
+    <wire from="(780,1690)" to="(780,1750)"/>
+    <wire from="(780,1690)" to="(810,1690)"/>
+    <wire from="(780,1750)" to="(810,1750)"/>
     <wire from="(790,1040)" to="(790,1290)"/>
     <wire from="(790,1290)" to="(930,1290)"/>
     <wire from="(790,3340)" to="(810,3340)"/>
@@ -2793,9 +2809,7 @@
     <wire from="(810,1630)" to="(830,1630)"/>
     <wire from="(810,1660)" to="(810,1690)"/>
     <wire from="(810,1660)" to="(840,1660)"/>
-    <wire from="(810,1690)" to="(810,1720)"/>
     <wire from="(810,1690)" to="(850,1690)"/>
-    <wire from="(810,1720)" to="(810,1750)"/>
     <wire from="(810,1720)" to="(860,1720)"/>
     <wire from="(810,1750)" to="(810,1780)"/>
     <wire from="(810,1750)" to="(870,1750)"/>
