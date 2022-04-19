@@ -226,11 +226,13 @@ Note:
 > need to check ALU is implemented for current format before running tests
 
 Currently:
-* Pause on 7.3:
->> bash test.sh test_immediates
+* Pause on 7.3
 >> bash test.sh test_integration_jump
 >> bash test.sh test_integration_mem
 * most likely SRA one of biggest contributors to things not working
+
+>> changed wiring for jal, hjalr 
+>> need to change jal, jalr wiring; one of them is I-format and accidentally miswired them throughout because jalr is op25, jal op27, not other way around
 
 introduce more programs for integration testing
 

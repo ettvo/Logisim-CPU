@@ -262,6 +262,10 @@
       <a name="label" val="Instruction"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(140,710)" name="Tunnel">
+      <a name="label" val="imm20_j"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+    </comp>
     <comp lib="0" loc="(140,940)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="imm31_12"/>
@@ -550,6 +554,7 @@
     </comp>
     <comp lib="0" loc="(480,1750)" name="Tunnel">
       <a name="label" val="I_imm"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(480,380)" name="Tunnel">
@@ -676,14 +681,14 @@
       <a name="bit22" val="6"/>
       <a name="bit23" val="6"/>
       <a name="bit24" val="6"/>
-      <a name="bit25" val="0"/>
-      <a name="bit26" val="3"/>
-      <a name="bit27" val="3"/>
-      <a name="bit28" val="3"/>
-      <a name="bit29" val="3"/>
+      <a name="bit25" val="7"/>
+      <a name="bit26" val="7"/>
+      <a name="bit27" val="7"/>
+      <a name="bit28" val="7"/>
+      <a name="bit29" val="7"/>
       <a name="bit3" val="none"/>
-      <a name="bit30" val="3"/>
-      <a name="bit31" val="4"/>
+      <a name="bit30" val="7"/>
+      <a name="bit31" val="7"/>
       <a name="bit4" val="none"/>
       <a name="bit5" val="none"/>
       <a name="bit6" val="none"/>
@@ -713,11 +718,6 @@
       <a name="label" val="imm10_1"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="10"/>
-    </comp>
-    <comp lib="0" loc="(600,580)" name="Tunnel">
-      <a name="label" val="imm11_5"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-      <a name="width" val="7"/>
     </comp>
     <comp lib="0" loc="(600,620)" name="Splitter">
       <a name="appear" val="center"/>
@@ -761,10 +761,6 @@
     </comp>
     <comp lib="0" loc="(650,640)" name="Tunnel">
       <a name="label" val="imm12_b"/>
-      <a name="labelfont" val="SansSerif bold 10"/>
-    </comp>
-    <comp lib="0" loc="(650,670)" name="Tunnel">
-      <a name="label" val="imm20_j"/>
       <a name="labelfont" val="SansSerif bold 10"/>
     </comp>
     <comp lib="0" loc="(680,1090)" name="Tunnel">
@@ -874,6 +870,11 @@
     <comp lib="0" loc="(90,1860)" name="Constant">
       <a name="value" val="0x5"/>
       <a name="width" val="3"/>
+    </comp>
+    <comp lib="0" loc="(90,860)" name="Tunnel">
+      <a name="label" val="imm11_5"/>
+      <a name="labelfont" val="SansSerif bold 10"/>
+      <a name="width" val="7"/>
     </comp>
     <comp lib="0" loc="(920,160)" name="Tunnel">
       <a name="facing" val="east"/>
@@ -1199,6 +1200,8 @@
     <wire from="(80,660)" to="(100,660)"/>
     <wire from="(80,760)" to="(110,760)"/>
     <wire from="(80,840)" to="(200,840)"/>
+    <wire from="(80,850)" to="(80,860)"/>
+    <wire from="(80,860)" to="(90,860)"/>
     <wire from="(800,350)" to="(820,350)"/>
     <wire from="(810,390)" to="(820,390)"/>
     <wire from="(810,420)" to="(830,420)"/>

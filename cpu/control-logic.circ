@@ -5,8 +5,7 @@
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="appear" val="center"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
+      <a name="facing" val="west"/>
     </tool>
     <tool name="Pin">
       <a name="facing" val="north"/>
@@ -177,6 +176,10 @@
       <a name="label" val="Instruction"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1000,900)" name="Constant">
+      <a name="value" val="0x1b"/>
+      <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(1070,470)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -566,11 +569,10 @@
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1790,1790)" name="Constant">
-      <a name="value" val="0x0"/>
+      <a name="value" val="0x4"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1790,1820)" name="Constant">
-      <a name="value" val="0x4"/>
       <a name="width" val="3"/>
     </comp>
     <comp lib="0" loc="(1790,1850)" name="Constant">
@@ -1194,6 +1196,7 @@
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(900,880)" name="Probe"/>
     <comp lib="0" loc="(910,1540)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="PCSel"/>
@@ -1209,6 +1212,10 @@
       <a name="label" val="funct7_edit"/>
       <a name="labelfont" val="SansSerif bold 10"/>
       <a name="width" val="2"/>
+    </comp>
+    <comp lib="0" loc="(910,940)" name="Constant">
+      <a name="value" val="0x6f"/>
+      <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(920,2050)" name="Tunnel">
       <a name="facing" val="south"/>
@@ -2905,6 +2912,7 @@
     <wire from="(900,3310)" to="(900,3550)"/>
     <wire from="(900,3690)" to="(900,3710)"/>
     <wire from="(900,3690)" to="(910,3690)"/>
+    <wire from="(900,880)" to="(910,880)"/>
     <wire from="(910,1540)" to="(910,1550)"/>
     <wire from="(910,1550)" to="(910,1560)"/>
     <wire from="(910,1550)" to="(940,1550)"/>
@@ -2915,6 +2923,7 @@
     <wire from="(910,3260)" to="(910,3270)"/>
     <wire from="(910,3260)" to="(940,3260)"/>
     <wire from="(910,3310)" to="(910,3580)"/>
+    <wire from="(910,880)" to="(910,940)"/>
     <wire from="(920,150)" to="(920,230)"/>
     <wire from="(920,2050)" to="(920,2060)"/>
     <wire from="(920,2060)" to="(920,2070)"/>
