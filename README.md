@@ -139,6 +139,7 @@ ex: addi t0, t1, 3
 note: includes load instructions
 --> immediate logical arithmetic opcode: 0x13 = 0010011 --> 00100 = 4
 --> load opcode: 0000011 --> 00000 = 0
+--> jalr opcode: 1100111 --> 11001 = 25
     
 S-Type Format (store)
     imm(11:5) [31-25]
@@ -171,7 +172,6 @@ J-Format (jump)
     opcode [6-0]
 ex: jal
 --> jal opcode: 1101111 --> 11011 = 27
---> jalr opcode: 1100111 --> 11001 = 25
 
 U-Format
     imm(31:12) [31:12]
