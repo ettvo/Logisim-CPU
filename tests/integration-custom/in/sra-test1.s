@@ -15,3 +15,6 @@ srai s0, t0, 1 # pc 20 --> ffffffff from ffffffff
 
 # check ALU unit in cpu; connection to instruction in cpu
 
+# 41f45293
+# 41f45293
+
